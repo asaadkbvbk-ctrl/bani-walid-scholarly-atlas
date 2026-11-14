@@ -1,4 +1,5 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
+import heroBackground from "@/assets/hero-background.jpg.asset.json";
 import { useRef, useState } from "react";
 import { capturedProjects as searchableProjects } from "@/lib/captured-projects";
 import capturedCSS from "../styles/site.css?raw";
@@ -54,7 +55,7 @@ function Index() {
       <main className="min-h-screen">
         <section className="relative z-20">
           <div className="absolute inset-0 overflow-hidden">
-            <img className="h-full w-full object-cover" src="/site-assets/00fd94bb2086ccd2.jpg" alt="مكتبة أكاديمية" width="1600" height="900" />
+            <img className="h-full w-full object-cover" src={heroBackground.url} alt="خلفية منظومة مشاريع التخرج" width="1600" height="900" />
             <div className="hero-overlay absolute inset-0" />
           </div>
           <div className="relative mx-auto max-w-6xl px-4 py-24 md:py-32">
@@ -88,17 +89,18 @@ function Index() {
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link className={"rounded-lg \x62g-gold px-5 py-3 font-semibold text-gold-foreground"} to="/students">تصفّح جميع المشاريع</Link>
+              <a className="rounded-lg border border-gold px-5 py-3 font-semibold text-primary-foreground transition hover:bg-gold hover:text-gold-foreground" href="/downloads/graduation-projects-guide.pdf" download="دليل-مشاريع-التخرج.pdf">تحميل دليل مشاريع التخرج</a>
             </div>
           </div>
         </section>
         <section className="relative z-30 mx-auto mt-8 grid max-w-6xl grid-cols-2 gap-4 px-4 md:grid-cols-4">
           <div className={"rounded-xl \x62order \x62order-t-4 \x62order-t-gold \x62g-card p-6 text-center \x73hadow-lift"}>
             <div className="font-sans text-5xl font-bold text-primary">4</div>
-            <div className="mt-2 text-base font-semibold text-foreground">مشروع منشور</div>
+            <div className="mt-2 text-base font-semibold text-foreground">مشاريع</div>
           </div>
           <div className={"rounded-xl \x62order \x62order-t-4 \x62order-t-gold \x62g-card p-6 text-center \x73hadow-lift"}>
             <div className="font-sans text-5xl font-bold text-primary">0</div>
-            <div className="mt-2 text-base font-semibold text-foreground">خريج مسجل</div>
+            <div className="mt-2 text-base font-semibold text-foreground">خريج</div>
           </div>
           <div className={"rounded-xl \x62order \x62order-t-4 \x62order-t-gold \x62g-card p-6 text-center \x73hadow-lift"}>
             <div className="font-sans text-5xl font-bold text-primary">4</div>
