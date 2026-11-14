@@ -1,0 +1,1260 @@
+[
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 0",
+    "scrollContainer": "window",
+    "scrollPosition": 0,
+    "text": "كلية التربية - جامعة بني وليد\n\nمنظومة مشاريع التخرج والخريجين\n\nمرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج\n\nمنصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.\n\nالبحث السريع\nتصفّح جميع المشاريع",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-desktop-section-0.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 1",
+    "scrollContainer": "window",
+    "scrollPosition": 534,
+    "text": "4\nمشروع منشور\n0\nخريج مسجل\n4\nقسم مشارك\n0\nملف PDF متاح",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-desktop-section-1.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 2",
+    "scrollContainer": "window",
+    "scrollPosition": 667,
+    "text": "تعريف المنظومة\n\nمنظومة إلكترونية تهدف إلى تنظيم وحفظ بيانات خريجي كلية التربية ومشاريع تخرجهم، وإتاحتها بطريقة سهلة وموثوقة. وتوفّر المنظومة قاعدة بيانات موحّدة تساعد على الوصول إلى المعلومات، ومتابعة المشاريع، وإبراز نتاج الطلبة العلمي، بما يدعم التواصل مع الخريجين والاستفادة من خبراتهم ومشاريعهم.\n\nأهداف المنظومة\nإنشاء قاعدة بيانات محدثة ومنظمة للخريجين.\nحفظ مشاريع التخرج وتصنيفها حسب التخصص والفصل الدراسي.\nتسهيل البحث عن بيانات الخريجين والمشاريع والوصول إليها.\nإبراز إنجازات الطلبة وتشجيع تبادل المعرفة والأفكار.\nدعم التواصل بين المؤسسة وخريجيها.\nتوفير معلومات موثوقة تساعد في إعداد التقارير والتخطيط والتطوير.",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-desktop-section-2.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 3",
+    "scrollContainer": "window",
+    "scrollPosition": 1021,
+    "text": "أقسام الكلية\n\nاختر القسم لعرض مشاريع طلابه فقط.\n\nالحاسوب\n1 مشروع\nبحث\nالفيزياء\n0 مشروع\nبحث\nالكيمياء\n0 مشروع\nبحث\nالأحياء\n0 مشروع\nبحث\nالرياضيات\n0 مشروع\nبحث\nاللغة العربية\n1 مشروع\nبحث\nاللغة الإنجليزية\n1 مشروع\nبحث\nعلم الاجتماع\n0 مشروع\nبحث\nالخدمة الاجتماعية\n0 مشروع\nبحث\nالتربية وعلم النفس\n1 مشروع\nبحث\nرياض الأطفال\n0 مشروع\nبحث\nالإدارة التعليمية والتخطيط التربوي\n0 مشروع\nبحث\nمعلم الفصل\n0 مشروع\nبحث\nالتربية الخاصة\n0 مشروع\nبحث\nالدراسات الإسلامية\n0 مشروع\nبحث\nالجغرافيا والدراسات البيئية\n0 مشروع\nبحث\nالتاريخ\n0 مشروع\nبحث\nالتربية البدنية\n0 مشروع\nبحث",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-desktop-section-3.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 4",
+    "scrollContainer": "window",
+    "scrollPosition": 1419,
+    "text": "أحدث المشاريع\nعرض الكل ←\nقسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك\n\n★ متميز\nقسم التربية وعلم النفس\n2025\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي\n\nقسم اللغة الإنجليزية\n2024\nصعوبات تعلم مهارة المحادثة باللغة الإنجليزية\n\nتحليل للصعوبات التي يواجهها طلاب المرحلة الثانوية مع مقترحات علاجية.\n\nإعداد: مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر\n\n★ متميز\nقسم اللغة العربية\n2024\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-desktop-section-4.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "quick search",
+    "input": "نظام",
+    "observed": "البحث السريع\nقسم الحاسوب\n\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nأحمد سالم، محمد علي — إشراف: د. خالد المبروك",
+    "screenshot": "/tmp/browser/scholarly/source-desktop-search.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 0",
+    "scrollContainer": "window",
+    "scrollPosition": 0,
+    "text": "كلية التربية - جامعة بني وليد\n\nمنظومة مشاريع التخرج والخريجين\n\nمرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج\n\nمنصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.\n\nالبحث السريع\nتصفّح جميع المشاريع",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-phone-section-0.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 1",
+    "scrollContainer": "window",
+    "scrollPosition": 646,
+    "text": "4\nمشروع منشور\n0\nخريج مسجل\n4\nقسم مشارك\n0\nملف PDF متاح",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-phone-section-1.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 2",
+    "scrollContainer": "window",
+    "scrollPosition": 928,
+    "text": "تعريف المنظومة\n\nمنظومة إلكترونية تهدف إلى تنظيم وحفظ بيانات خريجي كلية التربية ومشاريع تخرجهم، وإتاحتها بطريقة سهلة وموثوقة. وتوفّر المنظومة قاعدة بيانات موحّدة تساعد على الوصول إلى المعلومات، ومتابعة المشاريع، وإبراز نتاج الطلبة العلمي، بما يدعم التواصل مع الخريجين والاستفادة من خبراتهم ومشاريعهم.\n\nأهداف المنظومة\nإنشاء قاعدة بيانات محدثة ومنظمة للخريجين.\nحفظ مشاريع التخرج وتصنيفها حسب التخصص والفصل الدراسي.\nتسهيل البحث عن بيانات الخريجين والمشاريع والوصول إليها.\nإبراز إنجازات الطلبة وتشجيع تبادل المعرفة والأفكار.\nدعم التواصل بين المؤسسة وخريجيها.\nتوفير معلومات موثوقة تساعد في إعداد التقارير والتخطيط والتطوير.",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-phone-section-2.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 3",
+    "scrollContainer": "window",
+    "scrollPosition": 1728,
+    "text": "أقسام الكلية\n\nاختر القسم لعرض مشاريع طلابه فقط.\n\nالحاسوب\n1 مشروع\nبحث\nالفيزياء\n0 مشروع\nبحث\nالكيمياء\n0 مشروع\nبحث\nالأحياء\n0 مشروع\nبحث\nالرياضيات\n0 مشروع\nبحث\nاللغة العربية\n1 مشروع\nبحث\nاللغة الإنجليزية\n1 مشروع\nبحث\nعلم الاجتماع\n0 مشروع\nبحث\nالخدمة الاجتماعية\n0 مشروع\nبحث\nالتربية وعلم النفس\n1 مشروع\nبحث\nرياض الأطفال\n0 مشروع\nبحث\nالإدارة التعليمية والتخطيط التربوي\n0 مشروع\nبحث\nمعلم الفصل\n0 مشروع\nبحث\nالتربية الخاصة\n0 مشروع\nبحث\nالدراسات الإسلامية\n0 مشروع\nبحث\nالجغرافيا والدراسات البيئية\n0 مشروع\nبحث\nالتاريخ\n0 مشروع\nبحث\nالتربية البدنية\n0 مشروع\nبحث",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-phone-section-3.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 4",
+    "scrollContainer": "window",
+    "scrollPosition": 3248,
+    "text": "أحدث المشاريع\nعرض الكل ←\nقسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك\n\n★ متميز\nقسم التربية وعلم النفس\n2025\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي\n\nقسم اللغة الإنجليزية\n2024\nصعوبات تعلم مهارة المحادثة باللغة الإنجليزية\n\nتحليل للصعوبات التي يواجهها طلاب المرحلة الثانوية مع مقترحات علاجية.\n\nإعداد: مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر\n\n★ متميز\nقسم اللغة العربية\n2024\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/source-phone-section-4.png"
+  },
+  {
+    "site": "source",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "quick search",
+    "input": "نظام",
+    "observed": "البحث السريع\nقسم الحاسوب\n\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nأحمد سالم، محمد علي — إشراف: د. خالد المبروك",
+    "screenshot": "/tmp/browser/scholarly/source-phone-search.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 0",
+    "scrollContainer": "window",
+    "scrollPosition": 0,
+    "text": "كلية التربية - جامعة بني وليد\n\nمنظومة مشاريع التخرج والخريجين\n\nمرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج\n\nمنصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.\n\nالبحث السريع\nتصفّح جميع المشاريع",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-desktop-section-0.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 1",
+    "scrollContainer": "window",
+    "scrollPosition": 534,
+    "text": "4\nمشروع منشور\n0\nخريج مسجل\n4\nقسم مشارك\n0\nملف PDF متاح",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-desktop-section-1.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 2",
+    "scrollContainer": "window",
+    "scrollPosition": 667,
+    "text": "تعريف المنظومة\n\nمنظومة إلكترونية تهدف إلى تنظيم وحفظ بيانات خريجي كلية التربية ومشاريع تخرجهم، وإتاحتها بطريقة سهلة وموثوقة. وتوفّر المنظومة قاعدة بيانات موحّدة تساعد على الوصول إلى المعلومات، ومتابعة المشاريع، وإبراز نتاج الطلبة العلمي، بما يدعم التواصل مع الخريجين والاستفادة من خبراتهم ومشاريعهم.\n\nأهداف المنظومة\nإنشاء قاعدة بيانات محدثة ومنظمة للخريجين.\nحفظ مشاريع التخرج وتصنيفها حسب التخصص والفصل الدراسي.\nتسهيل البحث عن بيانات الخريجين والمشاريع والوصول إليها.\nإبراز إنجازات الطلبة وتشجيع تبادل المعرفة والأفكار.\nدعم التواصل بين المؤسسة وخريجيها.\nتوفير معلومات موثوقة تساعد في إعداد التقارير والتخطيط والتطوير.",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-desktop-section-2.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 3",
+    "scrollContainer": "window",
+    "scrollPosition": 1021,
+    "text": "أقسام الكلية\n\nاختر القسم لعرض مشاريع طلابه فقط.\n\nالحاسوب\n1 مشروع\nبحث\nالفيزياء\n0 مشروع\nبحث\nالكيمياء\n0 مشروع\nبحث\nالأحياء\n0 مشروع\nبحث\nالرياضيات\n0 مشروع\nبحث\nاللغة العربية\n1 مشروع\nبحث\nاللغة الإنجليزية\n1 مشروع\nبحث\nعلم الاجتماع\n0 مشروع\nبحث\nالخدمة الاجتماعية\n0 مشروع\nبحث\nالتربية وعلم النفس\n1 مشروع\nبحث\nرياض الأطفال\n0 مشروع\nبحث\nالإدارة التعليمية والتخطيط التربوي\n0 مشروع\nبحث\nمعلم الفصل\n0 مشروع\nبحث\nالتربية الخاصة\n0 مشروع\nبحث\nالدراسات الإسلامية\n0 مشروع\nبحث\nالجغرافيا والدراسات البيئية\n0 مشروع\nبحث\nالتاريخ\n0 مشروع\nبحث\nالتربية البدنية\n0 مشروع\nبحث",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-desktop-section-3.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 4",
+    "scrollContainer": "window",
+    "scrollPosition": 1419,
+    "text": "أحدث المشاريع\nعرض الكل ←\nقسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك\n\n★ متميز\nقسم التربية وعلم النفس\n2025\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي\n\nقسم اللغة الإنجليزية\n2024\nصعوبات تعلم مهارة المحادثة باللغة الإنجليزية\n\nتحليل للصعوبات التي يواجهها طلاب المرحلة الثانوية مع مقترحات علاجية.\n\nإعداد: مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر\n\n★ متميز\nقسم اللغة العربية\n2024\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-desktop-section-4.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "quick search",
+    "input": "نظام",
+    "observed": "البحث السريع",
+    "screenshot": "/tmp/browser/scholarly/preview-desktop-search.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 0",
+    "scrollContainer": "window",
+    "scrollPosition": 0,
+    "text": "كلية التربية - جامعة بني وليد\n\nمنظومة مشاريع التخرج والخريجين\n\nمرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج\n\nمنصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.\n\nالبحث السريع\nتصفّح جميع المشاريع",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-phone-section-0.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 1",
+    "scrollContainer": "window",
+    "scrollPosition": 646,
+    "text": "4\nمشروع منشور\n0\nخريج مسجل\n4\nقسم مشارك\n0\nملف PDF متاح",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-phone-section-1.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 2",
+    "scrollContainer": "window",
+    "scrollPosition": 928,
+    "text": "تعريف المنظومة\n\nمنظومة إلكترونية تهدف إلى تنظيم وحفظ بيانات خريجي كلية التربية ومشاريع تخرجهم، وإتاحتها بطريقة سهلة وموثوقة. وتوفّر المنظومة قاعدة بيانات موحّدة تساعد على الوصول إلى المعلومات، ومتابعة المشاريع، وإبراز نتاج الطلبة العلمي، بما يدعم التواصل مع الخريجين والاستفادة من خبراتهم ومشاريعهم.\n\nأهداف المنظومة\nإنشاء قاعدة بيانات محدثة ومنظمة للخريجين.\nحفظ مشاريع التخرج وتصنيفها حسب التخصص والفصل الدراسي.\nتسهيل البحث عن بيانات الخريجين والمشاريع والوصول إليها.\nإبراز إنجازات الطلبة وتشجيع تبادل المعرفة والأفكار.\nدعم التواصل بين المؤسسة وخريجيها.\nتوفير معلومات موثوقة تساعد في إعداد التقارير والتخطيط والتطوير.",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-phone-section-2.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 3",
+    "scrollContainer": "window",
+    "scrollPosition": 1728,
+    "text": "أقسام الكلية\n\nاختر القسم لعرض مشاريع طلابه فقط.\n\nالحاسوب\n1 مشروع\nبحث\nالفيزياء\n0 مشروع\nبحث\nالكيمياء\n0 مشروع\nبحث\nالأحياء\n0 مشروع\nبحث\nالرياضيات\n0 مشروع\nبحث\nاللغة العربية\n1 مشروع\nبحث\nاللغة الإنجليزية\n1 مشروع\nبحث\nعلم الاجتماع\n0 مشروع\nبحث\nالخدمة الاجتماعية\n0 مشروع\nبحث\nالتربية وعلم النفس\n1 مشروع\nبحث\nرياض الأطفال\n0 مشروع\nبحث\nالإدارة التعليمية والتخطيط التربوي\n0 مشروع\nبحث\nمعلم الفصل\n0 مشروع\nبحث\nالتربية الخاصة\n0 مشروع\nبحث\nالدراسات الإسلامية\n0 مشروع\nبحث\nالجغرافيا والدراسات البيئية\n0 مشروع\nبحث\nالتاريخ\n0 مشروع\nبحث\nالتربية البدنية\n0 مشروع\nبحث",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-phone-section-3.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 4",
+    "scrollContainer": "window",
+    "scrollPosition": 3248,
+    "text": "أحدث المشاريع\nعرض الكل ←\nقسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك\n\n★ متميز\nقسم التربية وعلم النفس\n2025\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي\n\nقسم اللغة الإنجليزية\n2024\nصعوبات تعلم مهارة المحادثة باللغة الإنجليزية\n\nتحليل للصعوبات التي يواجهها طلاب المرحلة الثانوية مع مقترحات علاجية.\n\nإعداد: مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر\n\n★ متميز\nقسم اللغة العربية\n2024\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج",
+    "status": "observed",
+    "screenshot": "/tmp/browser/scholarly/preview-phone-section-4.png"
+  },
+  {
+    "site": "preview",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "quick search",
+    "input": "نظام",
+    "observed": "البحث السريع",
+    "screenshot": "/tmp/browser/scholarly/preview-phone-search.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 0",
+    "scrollContainer": "window",
+    "scrollPosition": 0,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-desktop-section-0.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 1",
+    "scrollContainer": "window",
+    "scrollPosition": 534,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-desktop-section-1.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 2",
+    "scrollContainer": "window",
+    "scrollPosition": 667,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-desktop-section-2.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 3",
+    "scrollContainer": "window",
+    "scrollPosition": 1021,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-desktop-section-3.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "section 4",
+    "scrollContainer": "window",
+    "scrollPosition": 1419,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-desktop-section-4.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "quick search and result next step",
+    "input": "نظام",
+    "expected": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "observed": "http://localhost:8080/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "status": "passed destination; page not imported",
+    "screenshot": "/tmp/browser/scholarly/verified-desktop-search.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "كلية التربية\nجامعة بني وليد",
+    "expectedDestination": "/",
+    "observedDestination": "http://localhost:8080/",
+    "status": "passed"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "الرئيسية",
+    "expectedDestination": "/",
+    "observedDestination": "http://localhost:8080/",
+    "status": "passed"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "مشاريع التخرج",
+    "expectedDestination": "/students",
+    "observedDestination": "http://localhost:8080/students",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "الخريجين",
+    "expectedDestination": "/graduates",
+    "observedDestination": "http://localhost:8080/graduates",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "البحث المتقدم",
+    "expectedDestination": "/search",
+    "observedDestination": "http://localhost:8080/search",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "إحصائيات الكلية",
+    "expectedDestination": "/stats",
+    "observedDestination": "http://localhost:8080/stats",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "لوحة التحكم",
+    "expectedDestination": "/admin",
+    "observedDestination": "http://localhost:8080/admin",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "تصفّح جميع المشاريع",
+    "expectedDestination": "/students",
+    "observedDestination": "http://localhost:8080/students",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%83%D9%8A%D9%85%D9%8A%D8%A7%D8%A1",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%83%D9%8A%D9%85%D9%8A%D8%A7%D8%A1",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A3%D8%AD%D9%8A%D8%A7%D8%A1",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A3%D8%AD%D9%8A%D8%A7%D8%A1",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D9%88%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D9%88%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%B1%D9%8A%D8%A7%D8%B6+%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%B1%D9%8A%D8%A7%D8%B6+%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9+%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9+%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D9%85%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%81%D8%B5%D9%84",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D9%85%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%81%D8%B5%D9%84",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7+%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7+%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "عرض الكل ←",
+    "expectedDestination": "/students",
+    "observedDestination": "http://localhost:8080/students",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "قسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك",
+    "expectedDestination": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "observedDestination": "http://localhost:8080/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "★ متميز\nقسم التربية وعلم النفس\n2025\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي",
+    "expectedDestination": "/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "observedDestination": "http://localhost:8080/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "قسم اللغة الإنجليزية\n2024\nصعوبات تعلم مهارة المحادثة باللغة الإنجليزية\n\nتحليل للصعوبات التي يواجهها طلاب المرحلة الثانوية مع مقترحات علاجية.\n\nإعداد: مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر",
+    "expectedDestination": "/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "observedDestination": "http://localhost:8080/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "★ متميز\nقسم اللغة العربية\n2024\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج",
+    "expectedDestination": "/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "observedDestination": "http://localhost:8080/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "control": "دخول المشرف",
+    "expectedDestination": "/admin",
+    "observedDestination": "http://localhost:8080/admin",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 0",
+    "scrollContainer": "window",
+    "scrollPosition": 0,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-phone-section-0.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 1",
+    "scrollContainer": "window",
+    "scrollPosition": 646,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-phone-section-1.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 2",
+    "scrollContainer": "window",
+    "scrollPosition": 928,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-phone-section-2.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 3",
+    "scrollContainer": "window",
+    "scrollPosition": 1728,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-phone-section-3.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "section 4",
+    "scrollContainer": "window",
+    "scrollPosition": 3248,
+    "status": "passed",
+    "screenshot": "/tmp/browser/scholarly/verified-phone-section-4.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "quick search and result next step",
+    "input": "نظام",
+    "expected": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "observed": "http://localhost:8080/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "status": "passed destination; page not imported",
+    "screenshot": "/tmp/browser/scholarly/verified-phone-search.png"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "كلية التربية\nجامعة بني وليد",
+    "expectedDestination": "/",
+    "observedDestination": "http://localhost:8080/",
+    "status": "passed"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "الرئيسية",
+    "expectedDestination": "/",
+    "observedDestination": "http://localhost:8080/",
+    "status": "passed"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "مشاريع التخرج",
+    "expectedDestination": "/students",
+    "observedDestination": "http://localhost:8080/students",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "الخريجين",
+    "expectedDestination": "/graduates",
+    "observedDestination": "http://localhost:8080/graduates",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "البحث المتقدم",
+    "expectedDestination": "/search",
+    "observedDestination": "http://localhost:8080/search",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "إحصائيات الكلية",
+    "expectedDestination": "/stats",
+    "observedDestination": "http://localhost:8080/stats",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "لوحة التحكم",
+    "expectedDestination": "/admin",
+    "observedDestination": "http://localhost:8080/admin",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "تصفّح جميع المشاريع",
+    "expectedDestination": "/students",
+    "observedDestination": "http://localhost:8080/students",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%81%D9%8A%D8%B2%D9%8A%D8%A7%D8%A1",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%83%D9%8A%D9%85%D9%8A%D8%A7%D8%A1",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%83%D9%8A%D9%85%D9%8A%D8%A7%D8%A1",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A3%D8%AD%D9%8A%D8%A7%D8%A1",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A3%D8%AD%D9%8A%D8%A7%D8%A1",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AE%D8%AF%D9%85%D8%A9+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D9%88%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D9%88%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%B1%D9%8A%D8%A7%D8%B6+%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%B1%D9%8A%D8%A7%D8%B6+%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9+%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9+%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%D9%8A%D8%A9+%D9%88%D8%A7%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D9%85%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%81%D8%B5%D9%84",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D9%85%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%81%D8%B5%D9%84",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A5%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7+%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7+%D9%88%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA+%D8%A7%D9%84%D8%A8%D9%8A%D8%A6%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "بحث",
+    "expectedDestination": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9",
+    "observedDestination": "http://localhost:8080/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D8%A7%D9%84%D8%A8%D8%AF%D9%86%D9%8A%D8%A9",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "عرض الكل ←",
+    "expectedDestination": "/students",
+    "observedDestination": "http://localhost:8080/students",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "قسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك",
+    "expectedDestination": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "observedDestination": "http://localhost:8080/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "★ متميز\nقسم التربية وعلم النفس\n2025\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي",
+    "expectedDestination": "/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "observedDestination": "http://localhost:8080/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "قسم اللغة الإنجليزية\n2024\nصعوبات تعلم مهارة المحادثة باللغة الإنجليزية\n\nتحليل للصعوبات التي يواجهها طلاب المرحلة الثانوية مع مقترحات علاجية.\n\nإعداد: مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر",
+    "expectedDestination": "/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "observedDestination": "http://localhost:8080/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "★ متميز\nقسم اللغة العربية\n2024\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج",
+    "expectedDestination": "/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "observedDestination": "http://localhost:8080/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "site": "preview-final",
+    "route": "/",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "control": "دخول المشرف",
+    "expectedDestination": "/admin",
+    "observedDestination": "http://localhost:8080/admin",
+    "status": "passed local destination; page not imported"
+  },
+  {
+    "route": "/",
+    "notes": "Source navigation is wrapping links on desktop and phone, without dropdown or hamburger. No video, canvas, carousel, accordion, tabs, blocking overlays or pinned panels found. Header remains sticky; hero is a static image. Captured project data is a static snapshot; destination pages were outside the requested single-page import."
+  }
+]
