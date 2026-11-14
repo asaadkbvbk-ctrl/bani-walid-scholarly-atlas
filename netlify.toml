@@ -1,0 +1,6 @@
+# TanStack Start builds through Nitro, which auto-detects Netlify and uses its
+# "netlify" preset: static assets go to `dist/` and the SSR server function to
+# `.netlify/functions-internal/server`. This overrides the UI publish setting.
+[build]
+  command = "bun run build"
+  publish = "dist"
