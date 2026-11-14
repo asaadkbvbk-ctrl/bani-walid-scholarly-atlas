@@ -10,11 +10,12 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AdminRouteImport } from './routes/admin'
+import { Route as AuthRouteImport } from './routes/auth'
 import { Route as GraduatesRouteImport } from './routes/graduates'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as StatsRouteImport } from './routes/stats'
 import { Route as StudentsRouteImport } from './routes/students'
+import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as Projects0e1421806db84e438544009c54565525RouteImport } from './routes/projects_.0e142180-6db8-4e43-8544-009c54565525'
 import { Route as Projects443ce1f7F2494fec83e13a55a8a8a46bRouteImport } from './routes/projects_.443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
 import { Route as Projects4524aff378434e1282815800d1312702RouteImport } from './routes/projects_.4524aff3-7843-4e12-8281-5800d1312702'
@@ -25,9 +26,9 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AdminRoute = AdminRouteImport.update({
-  id: '/admin',
-  path: '/admin',
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GraduatesRoute = GraduatesRouteImport.update({
@@ -48,6 +49,11 @@ const StatsRoute = StatsRouteImport.update({
 const StudentsRoute = StudentsRouteImport.update({
   id: '/students',
   path: '/students',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
+  id: '/_authenticated/admin',
+  path: '/admin',
   getParentRoute: () => rootRouteImport,
 } as any)
 const Projects0e1421806db84e438544009c54565525Route =
@@ -77,11 +83,12 @@ const Projects5da1928f3f944db7Ace172e32d2e8638Route =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/projects/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -89,11 +96,12 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/projects/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -102,11 +110,12 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
+  '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/projects_/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects_/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -116,11 +125,12 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/admin'
+    | '/auth'
     | '/graduates'
     | '/search'
     | '/stats'
     | '/students'
+    | '/admin'
     | '/projects/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
@@ -128,11 +138,12 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/admin'
+    | '/auth'
     | '/graduates'
     | '/search'
     | '/stats'
     | '/students'
+    | '/admin'
     | '/projects/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
@@ -140,11 +151,12 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/admin'
+    | '/auth'
     | '/graduates'
     | '/search'
     | '/stats'
     | '/students'
+    | '/_authenticated/admin'
     | '/projects_/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects_/4524aff3-7843-4e12-8281-5800d1312702'
@@ -153,11 +165,12 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AdminRoute: typeof AdminRoute
+  AuthRoute: typeof AuthRoute
   GraduatesRoute: typeof GraduatesRoute
   SearchRoute: typeof SearchRoute
   StatsRoute: typeof StatsRoute
   StudentsRoute: typeof StudentsRoute
+  AuthenticatedAdminRoute: typeof AuthenticatedAdminRoute
   Projects0e1421806db84e438544009c54565525Route: typeof Projects0e1421806db84e438544009c54565525Route
   Projects443ce1f7F2494fec83e13a55a8a8a46bRoute: typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   Projects4524aff378434e1282815800d1312702Route: typeof Projects4524aff378434e1282815800d1312702Route
@@ -173,11 +186,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/admin': {
-      id: '/admin'
-      path: '/admin'
-      fullPath: '/admin'
-      preLoaderRoute: typeof AdminRouteImport
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/graduates': {
@@ -206,6 +219,13 @@ declare module '@tanstack/react-router' {
       path: '/students'
       fullPath: '/students'
       preLoaderRoute: typeof StudentsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/admin': {
+      id: '/_authenticated/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AuthenticatedAdminRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/projects_/0e142180-6db8-4e43-8544-009c54565525': {
@@ -241,11 +261,12 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AdminRoute: AdminRoute,
+  AuthRoute: AuthRoute,
   GraduatesRoute: GraduatesRoute,
   SearchRoute: SearchRoute,
   StatsRoute: StatsRoute,
   StudentsRoute: StudentsRoute,
+  AuthenticatedAdminRoute: AuthenticatedAdminRoute,
   Projects0e1421806db84e438544009c54565525Route:
     Projects0e1421806db84e438544009c54565525Route,
   Projects443ce1f7F2494fec83e13a55a8a8a46bRoute:
