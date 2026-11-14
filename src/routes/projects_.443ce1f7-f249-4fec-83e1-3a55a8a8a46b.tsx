@@ -1,8 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { Link, createFileRoute } from "@tanstack/react-router";
 import capturedCSS from "../styles/pages/projects.443ce1f7-f249-4fec-83e1-3a55a8a8a46b.css?raw";
 
 export const Route = createFileRoute("/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b")({
-  head: () => ({ meta: [{ title: "تفاصيل المشروع | كلية التربية - بني وليد" }] }),
+  head: () => ({ meta: [{"title": "صعوبات تعلم مهارة المحادثة باللغة الإنجليزية | كلية التربية - جامعة بني وليد"}, {"name": "description", "content": "صعوبات تعلم مهارة المحادثة باللغة الإنجليزية بكلية التربية بجامعة بني وليد."}, {"property": "og:title", "content": "صعوبات تعلم مهارة المحادثة باللغة الإنجليزية | كلية التربية - جامعة بني وليد"}, {"property": "og:description", "content": "صعوبات تعلم مهارة المحادثة باللغة الإنجليزية بكلية التربية بجامعة بني وليد."}, {"property": "og:type", "content": "website"}, {"name": "twitter:card", "content": "summary_large_image"}] }),
   staticData: { importedDocument: { html: { "dir": "rtl", "lang": "ar" }, body: {  } } },
   component: Index,
 });
@@ -18,26 +18,26 @@ function Index() {
           </div>
         </div>
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
-          <a className="flex items-center gap-3" href="/">
+          <Link className="flex items-center gap-3" to="/">
             <img className="h-12 w-auto" src="/site-assets/d0f6360e35312736.png" alt="شعار كلية التربية - جامعة بني وليد" />
             <span className="leading-tight">
               <span className="block font-bold text-lg text-foreground">كلية التربية</span>
               <span className="block text-xs text-muted-foreground">جامعة بني وليد</span>
             </span>
-          </a>
+          </Link>
           <nav className="flex flex-wrap gap-1 text-sm">
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/">الرئيسية</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/students">مشاريع التخرج</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/graduates">الخريجين</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/search">البحث المتقدم</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/stats">إحصائيات الكلية</a>
-            <a className={"rounded-full \x62order \x62order-primary/\x340 px-3 py-1.5 text-primary transition \x68over:\x62g-secondary"} href="/admin">لوحة التحكم</a>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/">الرئيسية</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/students">مشاريع التخرج</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/graduates">الخريجين</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/search">البحث المتقدم</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/stats">إحصائيات الكلية</Link>
+            <Link className={"rounded-full \x62order \x62order-primary/\x340 px-3 py-1.5 text-primary transition \x68over:\x62g-secondary"} to="/admin">لوحة التحكم</Link>
           </nav>
         </div>
       </header>
       <main className="min-h-screen">
         <div className="mx-auto max-w-5xl px-4 py-10">
-          <a className={"text-sm text-primary \x68over:\x75nderline"} href="/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9">→ مشاريع قسم اللغة الإنجليزية</a>
+          <Link className={"text-sm text-primary \x68over:\x75nderline"} to="/students" search={{"dept": "قسم اللغة الإنجليزية"}}>→ مشاريع قسم اللغة الإنجليزية</Link>
           <div className="mt-4 flex flex-wrap gap-2">
             <span className={"inline-block rounded-full \x62g-accent px-2.5 py-0.5 text-xs font-medium text-accent-foreground"}>قسم اللغة الإنجليزية</span>
             <span className={"inline-block rounded-full \x62g-accent px-2.5 py-0.5 text-xs font-medium text-accent-foreground"}>2024</span>
@@ -61,7 +61,7 @@ function Index() {
           <p className="mt-1 opacity-90">منظومة مشاريع التخرج والخريجين © 2026</p>
           <p className="mt-1 opacity-90">تحت إشراف أ. تجديده الحوسين الهادي</p>
           <p className="mt-2 opacity-80">بني وليد - ليبيا</p>
-          <a className="mt-3 inline-block text-xs underline opacity-70" href="/admin">دخول المشرف</a>
+          <Link className="mt-3 inline-block text-xs underline opacity-70" to="/admin">دخول المشرف</Link>
         </div>
       </footer>
     </>

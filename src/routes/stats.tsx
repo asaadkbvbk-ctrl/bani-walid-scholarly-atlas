@@ -1,8 +1,8 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { Link, createFileRoute } from "@tanstack/react-router";
 import capturedCSS from "../styles/pages/stats.css?raw";
 
 export const Route = createFileRoute("/stats")({
-  head: () => ({ meta: [{ title: "إحصائيات الكلية | كلية التربية - جامعة بني وليد" }] }),
+  head: () => ({ meta: [{"title": "إحصائيات الكلية | كلية التربية - جامعة بني وليد"}, {"name": "description", "content": "إحصائيات الكلية بكلية التربية بجامعة بني وليد."}, {"property": "og:title", "content": "إحصائيات الكلية | كلية التربية - جامعة بني وليد"}, {"property": "og:description", "content": "إحصائيات الكلية بكلية التربية بجامعة بني وليد."}, {"property": "og:type", "content": "website"}, {"name": "twitter:card", "content": "summary_large_image"}] }),
   staticData: { importedDocument: { html: { "dir": "rtl", "lang": "ar" }, body: {  } } },
   component: Index,
 });
@@ -18,20 +18,20 @@ function Index() {
           </div>
         </div>
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
-          <a className="flex items-center gap-3" href="/">
+          <Link className="flex items-center gap-3" to="/">
             <img className="h-12 w-auto" src="/site-assets/d0f6360e35312736.png" alt="شعار كلية التربية - جامعة بني وليد" />
             <span className="leading-tight">
               <span className="block font-bold text-lg text-foreground">كلية التربية</span>
               <span className="block text-xs text-muted-foreground">جامعة بني وليد</span>
             </span>
-          </a>
+          </Link>
           <nav className="flex flex-wrap gap-1 text-sm">
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/">الرئيسية</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/students">مشاريع التخرج</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/graduates">الخريجين</a>
-            <a className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" href="/search">البحث المتقدم</a>
-            <a className={"rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground \x62g-secondary !text-primary font-semibold"} aria-current="page" href="#">إحصائيات الكلية</a>
-            <a className={"rounded-full \x62order \x62order-primary/\x340 px-3 py-1.5 text-primary transition \x68over:\x62g-secondary"} href="/admin">لوحة التحكم</a>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/">الرئيسية</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/students">مشاريع التخرج</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/graduates">الخريجين</Link>
+            <Link className="rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground" to="/search">البحث المتقدم</Link>
+            <Link className={"rounded-full px-3 py-1.5 text-muted-foreground transition hover:text-foreground \x62g-secondary !text-primary font-semibold"} aria-current="page" to="/stats">إحصائيات الكلية</Link>
+            <Link className={"rounded-full \x62order \x62order-primary/\x340 px-3 py-1.5 text-primary transition \x68over:\x62g-secondary"} to="/admin">لوحة التحكم</Link>
           </nav>
         </div>
       </header>
@@ -152,7 +152,7 @@ function Index() {
           <p className="mt-1 opacity-90">منظومة مشاريع التخرج والخريجين © 2026</p>
           <p className="mt-1 opacity-90">تحت إشراف أ. تجديده الحوسين الهادي</p>
           <p className="mt-2 opacity-80">بني وليد - ليبيا</p>
-          <a className="mt-3 inline-block text-xs underline opacity-70" href="/admin">دخول المشرف</a>
+          <Link className="mt-3 inline-block text-xs underline opacity-70" to="/admin">دخول المشرف</Link>
         </div>
       </footer>
     </>
