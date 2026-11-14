@@ -1,0 +1,843 @@
+[
+  {
+    "route": "/students",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 1,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-students-desktop-top.png"
+  },
+  {
+    "route": "/students",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 1,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-students-phone-top.png"
+  },
+  {
+    "route": "/graduates",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 1,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-graduates-desktop-top.png"
+  },
+  {
+    "route": "/graduates",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 1,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-graduates-phone-top.png"
+  },
+  {
+    "route": "/search",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 1,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-search-desktop-top.png"
+  },
+  {
+    "route": "/search",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 1,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-search-phone-top.png"
+  },
+  {
+    "route": "/stats",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 8,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-stats-desktop-top.png"
+  },
+  {
+    "route": "/stats",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 8,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-stats-phone-top.png"
+  },
+  {
+    "route": "/admin",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 0,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-admin-desktop-top.png"
+  },
+  {
+    "route": "/admin",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 0,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-admin-phone-top.png"
+  },
+  {
+    "route": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-4524aff3-7843-4e12-8281-5800d1312702-desktop-top.png"
+  },
+  {
+    "route": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-4524aff3-7843-4e12-8281-5800d1312702-phone-top.png"
+  },
+  {
+    "route": "/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-0e142180-6db8-4e43-8544-009c54565525-desktop-top.png"
+  },
+  {
+    "route": "/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-0e142180-6db8-4e43-8544-009c54565525-phone-top.png"
+  },
+  {
+    "route": "/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-443ce1f7-f249-4fec-83e1-3a55a8a8a46b-desktop-top.png"
+  },
+  {
+    "route": "/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-443ce1f7-f249-4fec-83e1-3a55a8a8a46b-phone-top.png"
+  },
+  {
+    "route": "/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-5da1928f-3f94-4db7-ace1-72e32d2e8638-desktop-top.png"
+  },
+  {
+    "route": "/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "scrollContainer": "window",
+    "sections": 2,
+    "navigation": [
+      {
+        "text": "كلية التربية\nجامعة بني وليد",
+        "href": "/"
+      },
+      {
+        "text": "الرئيسية",
+        "href": "/"
+      },
+      {
+        "text": "مشاريع التخرج",
+        "href": "/students"
+      },
+      {
+        "text": "الخريجين",
+        "href": "/graduates"
+      },
+      {
+        "text": "البحث المتقدم",
+        "href": "/search"
+      },
+      {
+        "text": "إحصائيات الكلية",
+        "href": "/stats"
+      },
+      {
+        "text": "لوحة التحكم",
+        "href": "/admin"
+      },
+      {
+        "text": "دخول المشرف",
+        "href": "/admin"
+      }
+    ],
+    "status": "passed public sections and all navigation destinations",
+    "screenshot": "/tmp/browser/linked/final-projects-5da1928f-3f94-4db7-ace1-72e32d2e8638-phone-top.png"
+  },
+  {
+    "route": "/admin",
+    "layouts": [
+      "desktop",
+      "phone"
+    ],
+    "control": "Google and email sign-in / create account submission",
+    "status": "blocked",
+    "reason": "Website capture does not transfer authentication or supervisor access. Registration toggle and navigation verified; no account submissions performed."
+  },
+  {
+    "notes": "Source public data loaded asynchronously during observation; imported pages use the four captured projects and zero graduate records. No video/canvas motion fallbacks or normal-flow panel changes. Native selects replace browser-injected duplicate selector markup while preserving choices."
+  }
+]

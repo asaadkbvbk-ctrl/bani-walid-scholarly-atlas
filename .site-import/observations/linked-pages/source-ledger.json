@@ -1,0 +1,1142 @@
+[
+  {
+    "route": "/students",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "مشاريع الطلاب\n\nمشاريع التخرج وأبحاث الطلاب في أقسام الكلية الثمانية عشر. اختر القسم لعرض مشاريعه فقط.\n\nجميع الأقسام\n(0)\nالحاسوب\n(0)\nالفيزياء\n(0)\nالكيمياء\n(0)\nالأحياء\n(0)\nالرياضيات\n(0)\nاللغة العربية\n(0)\nاللغة الإنجليزية\n(0)\nعلم الاجتماع\n(0)\nالخدمة الاجتماعية\n(0)\nالتربية وعلم النفس\n(0)\nرياض الأطفال\n(0)\nالإدارة التعليمية والتخطيط التربوي\n(0)\nمعلم الفصل\n(0)\nالتربية الخاصة\n(0)\nالدراسات الإسلامية\n(0)\nالجغرافيا والدراسات البيئية\n(0)\nالتاريخ\n(0)\nالتربية البدنية\n(0)\nجميع الأقسام (0 مشروع)\nبحث في مشاريع التخرج\nبحث\n\nجارٍ التحميل...",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "جميع الأقسام\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الحاسوب\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الفيزياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الكيمياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الأحياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الرياضيات\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة العربية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة الإنجليزية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "علم الاجتماع\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الخدمة الاجتماعية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية وعلم النفس\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "رياض الأطفال\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الإدارة التعليمية والتخطيط التربوي\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "معلم الفصل\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية الخاصة\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الدراسات الإسلامية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الجغرافيا والدراسات البيئية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التاريخ\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية البدنية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "عنوان المشروع، الطالب، المشرف، أو الرقم الدراسي",
+        "href": null,
+        "type": "search"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "بحث",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "submit"
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-students-desktop.png"
+  },
+  {
+    "route": "/students",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "مشاريع الطلاب\n\nمشاريع التخرج وأبحاث الطلاب في أقسام الكلية الثمانية عشر. اختر القسم لعرض مشاريعه فقط.\n\nجميع الأقسام\n(0)\nالحاسوب\n(0)\nالفيزياء\n(0)\nالكيمياء\n(0)\nالأحياء\n(0)\nالرياضيات\n(0)\nاللغة العربية\n(0)\nاللغة الإنجليزية\n(0)\nعلم الاجتماع\n(0)\nالخدمة الاجتماعية\n(0)\nالتربية وعلم النفس\n(0)\nرياض الأطفال\n(0)\nالإدارة التعليمية والتخطيط التربوي\n(0)\nمعلم الفصل\n(0)\nالتربية الخاصة\n(0)\nالدراسات الإسلامية\n(0)\nالجغرافيا والدراسات البيئية\n(0)\nالتاريخ\n(0)\nالتربية البدنية\n(0)\nجميع الأقسام (0 مشروع)\nبحث في مشاريع التخرج\nبحث\n\nجارٍ التحميل...",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "جميع الأقسام\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الحاسوب\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الفيزياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الكيمياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الأحياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الرياضيات\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة العربية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة الإنجليزية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "علم الاجتماع\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الخدمة الاجتماعية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية وعلم النفس\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "رياض الأطفال\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الإدارة التعليمية والتخطيط التربوي\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "معلم الفصل\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية الخاصة\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الدراسات الإسلامية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الجغرافيا والدراسات البيئية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التاريخ\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية البدنية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "عنوان المشروع، الطالب، المشرف، أو الرقم الدراسي",
+        "href": null,
+        "type": "search"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "بحث",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "submit"
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-students-phone.png"
+  },
+  {
+    "route": "/graduates",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "دليل الخريجين\n\nسجلات خريجي الكلية المرتبطة بمشاريع تخرجهم. ابحث بالاسم أو الرقم الدراسي، أو صفِّ حسب القسم والسنة والفصل.\n\nجميع الأقسام\n(0)\nالحاسوب\n(0)\nالفيزياء\n(0)\nالكيمياء\n(0)\nالأحياء\n(0)\nالرياضيات\n(0)\nاللغة العربية\n(0)\nاللغة الإنجليزية\n(0)\nعلم الاجتماع\n(0)\nالخدمة الاجتماعية\n(0)\nالتربية وعلم النفس\n(0)\nرياض الأطفال\n(0)\nالإدارة التعليمية والتخطيط التربوي\n(0)\nمعلم الفصل\n(0)\nالتربية الخاصة\n(0)\nالدراسات الإسلامية\n(0)\nالجغرافيا والدراسات البيئية\n(0)\nالتاريخ\n(0)\nالتربية البدنية\n(0)\nكل السنوات\nكل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي\nجميع الأقسام (0 خريج)\n\nجارٍ التحميل...",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "جميع الأقسام\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الحاسوب\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الفيزياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الكيمياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الأحياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الرياضيات\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة العربية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة الإنجليزية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "علم الاجتماع\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الخدمة الاجتماعية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية وعلم النفس\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "رياض الأطفال\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الإدارة التعليمية والتخطيط التربوي\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "معلم الفصل\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية الخاصة\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الدراسات الإسلامية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الجغرافيا والدراسات البيئية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التاريخ\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية البدنية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "ابحث بالاسم أو الرقم الدراسي...",
+        "href": null,
+        "type": "search"
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل السنوات",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-graduates-desktop.png"
+  },
+  {
+    "route": "/graduates",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "دليل الخريجين\n\nسجلات خريجي الكلية المرتبطة بمشاريع تخرجهم. ابحث بالاسم أو الرقم الدراسي، أو صفِّ حسب القسم والسنة والفصل.\n\nجميع الأقسام\n(0)\nالحاسوب\n(0)\nالفيزياء\n(0)\nالكيمياء\n(0)\nالأحياء\n(0)\nالرياضيات\n(0)\nاللغة العربية\n(0)\nاللغة الإنجليزية\n(0)\nعلم الاجتماع\n(0)\nالخدمة الاجتماعية\n(0)\nالتربية وعلم النفس\n(0)\nرياض الأطفال\n(0)\nالإدارة التعليمية والتخطيط التربوي\n(0)\nمعلم الفصل\n(0)\nالتربية الخاصة\n(0)\nالدراسات الإسلامية\n(0)\nالجغرافيا والدراسات البيئية\n(0)\nالتاريخ\n(0)\nالتربية البدنية\n(0)\nكل السنوات\nكل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي\nجميع الأقسام (0 خريج)\n\nلا توجد سجلات مطابقة حالياً.",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "جميع الأقسام\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الحاسوب\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الفيزياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الكيمياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الأحياء\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الرياضيات\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة العربية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "اللغة الإنجليزية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "علم الاجتماع\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الخدمة الاجتماعية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية وعلم النفس\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "رياض الأطفال\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الإدارة التعليمية والتخطيط التربوي\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "معلم الفصل\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية الخاصة\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الدراسات الإسلامية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "الجغرافيا والدراسات البيئية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التاريخ\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "التربية البدنية\n(0)",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "ابحث بالاسم أو الرقم الدراسي...",
+        "href": null,
+        "type": "search"
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل السنوات",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-graduates-phone.png"
+  },
+  {
+    "route": "/search",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "البحث المتقدم\n\nابحث في مشاريع التخرج وسجلات الخريجين بشرط واحد أو بعدة شروط مجتمعة.\n\nكلمة عامة (عنوان، اسم، رقم دراسي...)\nالقسم\nكل الأقسام\nقسم الحاسوب\nقسم الفيزياء\nقسم الكيمياء\nقسم الأحياء\nقسم الرياضيات\nقسم اللغة العربية\nقسم اللغة الإنجليزية\nقسم علم الاجتماع\nقسم الخدمة الاجتماعية\nقسم التربية وعلم النفس\nقسم رياض الأطفال\nقسم الإدارة التعليمية والتخطيط التربوي\nقسم معلم الفصل\nقسم التربية الخاصة\nقسم الدراسات الإسلامية\nقسم الجغرافيا والدراسات البيئية\nقسم التاريخ\nقسم التربية البدنية\nسنة التخرج\nكل السنوات\n2025\n2024\nالفصل\nكل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي\nالمشرف\nاسم الطالب أو رقمه الدراسي\nالكلمات المفتاحية\n\nاكتب أو اختر شرطاً واحداً على الأقل لعرض النتائج.",
+    "controls": [
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "مثال: د. خالد، التعلم النشط، 2019001",
+        "href": null,
+        "type": "search"
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل الأقسام\nقسم الحاسوب\nقسم الفيزياء\nقسم الكيمياء\nقسم الأحياء\nقسم الرياضيات\nقسم اللغة العربية\nقسم اللغة الإنجليزية\nقسم علم الاجتماع\nقسم الخدمة الاجتماعية\nقسم التربية وعلم النفس\nقسم رياض الأطفال\nقسم الإدارة التعليمية والتخطيط التربوي\nقسم معلم الفصل\nقسم التربية الخاصة\nقسم الدراسات الإسلامية\nقسم الجغرافيا والدراسات البيئية\nقسم التاريخ\nقسم التربية البدنية",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل السنوات\n2025\n2024",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "اسم المشرف",
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "اسم الطالب",
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "مثال: التحصيل الدراسي",
+        "href": null,
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-search-desktop.png"
+  },
+  {
+    "route": "/search",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "البحث المتقدم\n\nابحث في مشاريع التخرج وسجلات الخريجين بشرط واحد أو بعدة شروط مجتمعة.\n\nكلمة عامة (عنوان، اسم، رقم دراسي...)\nالقسم\nكل الأقسام\nقسم الحاسوب\nقسم الفيزياء\nقسم الكيمياء\nقسم الأحياء\nقسم الرياضيات\nقسم اللغة العربية\nقسم اللغة الإنجليزية\nقسم علم الاجتماع\nقسم الخدمة الاجتماعية\nقسم التربية وعلم النفس\nقسم رياض الأطفال\nقسم الإدارة التعليمية والتخطيط التربوي\nقسم معلم الفصل\nقسم التربية الخاصة\nقسم الدراسات الإسلامية\nقسم الجغرافيا والدراسات البيئية\nقسم التاريخ\nقسم التربية البدنية\nسنة التخرج\nكل السنوات\n2025\n2024\nالفصل\nكل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي\nالمشرف\nاسم الطالب أو رقمه الدراسي\nالكلمات المفتاحية\n\nاكتب أو اختر شرطاً واحداً على الأقل لعرض النتائج.",
+    "controls": [
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "مثال: د. خالد، التعلم النشط، 2019001",
+        "href": null,
+        "type": "search"
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل الأقسام\nقسم الحاسوب\nقسم الفيزياء\nقسم الكيمياء\nقسم الأحياء\nقسم الرياضيات\nقسم اللغة العربية\nقسم اللغة الإنجليزية\nقسم علم الاجتماع\nقسم الخدمة الاجتماعية\nقسم التربية وعلم النفس\nقسم رياض الأطفال\nقسم الإدارة التعليمية والتخطيط التربوي\nقسم معلم الفصل\nقسم التربية الخاصة\nقسم الدراسات الإسلامية\nقسم الجغرافيا والدراسات البيئية\nقسم التاريخ\nقسم التربية البدنية",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل السنوات\n2025\n2024",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "SELECT",
+        "text": "كل الفصول\nفصل الخريف\nفصل الربيع\nالفصل الصيفي",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "اسم المشرف",
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "اسم الطالب",
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "مثال: التحصيل الدراسي",
+        "href": null,
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-search-phone.png"
+  },
+  {
+    "route": "/stats",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "إحصائيات الكلية\n\nمؤشرات محدثة تلقائياً من قاعدة البيانات مع كل إضافة أو تعديل من لوحة التحكم.\n\n4\nمشروع تخرج\n0\nخريج مسجّل\n4\nقسم مشارك\n0\nملف PDF متاح\nمشاريع التخرج حسب القسم\nالأحياء\n0\nالإدارة التعليمية والتخطيط التربوي\n0\nالتاريخ\n0\nالتربية البدنية\n0\nالتربية الخاصة\n0\nالتربية وعلم النفس\n1\nالجغرافيا والدراسات البيئية\n0\nالحاسوب\n1\nالخدمة الاجتماعية\n0\nالدراسات الإسلامية\n0\nالرياضيات\n0\nالفيزياء\n0\nالكيمياء\n0\nاللغة الإنجليزية\n1\nاللغة العربية\n1\nرياض الأطفال\n0\nعلم الاجتماع\n0\nمعلم الفصل\n0\nمشاريع التخرج حسب السنة\n2025\n2\n2024\n2\nمشاريع التخرج حسب الفصل\nغير محدد\n4\nالخريجون حسب سنة التخرج\n\nلا توجد بيانات بعد.\n\nالخريجون حسب القسم\nالأحياء\n0\nالإدارة التعليمية والتخطيط التربوي\n0\nالتاريخ\n0\nالتربية البدنية\n0\nالتربية الخاصة\n0\nالتربية وعلم النفس\n0\nالجغرافيا والدراسات البيئية\n0\nالحاسوب\n0\nالخدمة الاجتماعية\n0\nالدراسات الإسلامية\n0\nالرياضيات\n0\nالفيزياء\n0\nالكيمياء\n0\nاللغة الإنجليزية\n0\nاللغة العربية\n0\nرياض الأطفال\n0\nعلم الاجتماع\n0\nمعلم الفصل\n0\nالخريجون حسب فصل التخرج\n\nلا توجد بيانات بعد.\n\nأكثر المشرفين إشرافاً\nالمشرف\tعدد المشاريع\tالأقسام\tالسنوات\nد. خالد المبروك\t1\tقسم الحاسوب\t2025\nد. سعاد الهادي\t1\tقسم التربية وعلم النفس\t2025\nد. عبدالسلام فرج\t1\tقسم اللغة العربية\t2024\nد. نوري الطاهر\t1\tقسم اللغة الإنجليزية\t2024",
+    "controls": [],
+    "screenshot": "/tmp/browser/linked/source-stats-desktop.png"
+  },
+  {
+    "route": "/stats",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "إحصائيات الكلية\n\nمؤشرات محدثة تلقائياً من قاعدة البيانات مع كل إضافة أو تعديل من لوحة التحكم.\n\n4\nمشروع تخرج\n0\nخريج مسجّل\n4\nقسم مشارك\n0\nملف PDF متاح\nمشاريع التخرج حسب القسم\nالأحياء\n0\nالإدارة التعليمية والتخطيط التربوي\n0\nالتاريخ\n0\nالتربية البدنية\n0\nالتربية الخاصة\n0\nالتربية وعلم النفس\n1\nالجغرافيا والدراسات البيئية\n0\nالحاسوب\n1\nالخدمة الاجتماعية\n0\nالدراسات الإسلامية\n0\nالرياضيات\n0\nالفيزياء\n0\nالكيمياء\n0\nاللغة الإنجليزية\n1\nاللغة العربية\n1\nرياض الأطفال\n0\nعلم الاجتماع\n0\nمعلم الفصل\n0\nمشاريع التخرج حسب السنة\n2025\n2\n2024\n2\nمشاريع التخرج حسب الفصل\nغير محدد\n4\nالخريجون حسب سنة التخرج\n\nلا توجد بيانات بعد.\n\nالخريجون حسب القسم\nالأحياء\n0\nالإدارة التعليمية والتخطيط التربوي\n0\nالتاريخ\n0\nالتربية البدنية\n0\nالتربية الخاصة\n0\nالتربية وعلم النفس\n0\nالجغرافيا والدراسات البيئية\n0\nالحاسوب\n0\nالخدمة الاجتماعية\n0\nالدراسات الإسلامية\n0\nالرياضيات\n0\nالفيزياء\n0\nالكيمياء\n0\nاللغة الإنجليزية\n0\nاللغة العربية\n0\nرياض الأطفال\n0\nعلم الاجتماع\n0\nمعلم الفصل\n0\nالخريجون حسب فصل التخرج\n\nلا توجد بيانات بعد.\n\nأكثر المشرفين إشرافاً\nالمشرف\tعدد المشاريع\tالأقسام\tالسنوات\nد. خالد المبروك\t1\tقسم الحاسوب\t2025\nد. سعاد الهادي\t1\tقسم التربية وعلم النفس\t2025\nد. عبدالسلام فرج\t1\tقسم اللغة العربية\t2024\nد. نوري الطاهر\t1\tقسم اللغة الإنجليزية\t2024",
+    "controls": [],
+    "screenshot": "/tmp/browser/linked/source-stats-phone.png"
+  },
+  {
+    "route": "/admin",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "دخول المشرف\n\nلوحة التحكم الخاصة بنشر وإدارة مشاريع الطلاب\n\nالمتابعة باستخدام Google\nأو بالبريد الإلكتروني وكلمة المرور\nتسجيل الدخول\nإنشاء حساب مشرف",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "المتابعة باستخدام Google",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "البريد الإلكتروني",
+        "href": null,
+        "type": "email"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "كلمة المرور",
+        "href": null,
+        "type": "password"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "تسجيل الدخول",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "إنشاء حساب مشرف",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-admin-desktop.png"
+  },
+  {
+    "route": "/admin",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "دخول المشرف\n\nلوحة التحكم الخاصة بنشر وإدارة مشاريع الطلاب\n\nالمتابعة باستخدام Google\nأو بالبريد الإلكتروني وكلمة المرور\nتسجيل الدخول\nإنشاء حساب مشرف",
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "text": "المتابعة باستخدام Google",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "البريد الإلكتروني",
+        "href": null,
+        "type": "email"
+      },
+      {
+        "tag": "INPUT",
+        "text": "",
+        "label": null,
+        "placeholder": "كلمة المرور",
+        "href": null,
+        "type": "password"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "تسجيل الدخول",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "إنشاء حساب مشرف",
+        "label": null,
+        "placeholder": null,
+        "href": null,
+        "type": "button"
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-admin-phone.png"
+  },
+  {
+    "route": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "→ مشاريع قسم الحاسوب\nقسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك\n\nسجلات الطلبة المرتبطة\n\nلا توجد سجلات خريجين مرتبطة بالمشروع حالياً.\n\nملخص المشروع\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "→ مشاريع قسم الحاسوب",
+        "label": null,
+        "placeholder": null,
+        "href": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8",
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-projects-4524aff3-7843-4e12-8281-5800d1312702-desktop.png"
+  },
+  {
+    "route": "/projects/4524aff3-7843-4e12-8281-5800d1312702",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "→ مشاريع قسم الحاسوب\nقسم الحاسوب\n2025\nنظام ذكي لإدارة الحضور باستخدام التعرف على الوجه\n\nإعداد: أحمد سالم، محمد علي — إشراف: د. خالد المبروك\n\nسجلات الطلبة المرتبطة\n\nلا توجد سجلات خريجين مرتبطة بالمشروع حالياً.\n\nملخص المشروع\n\nتصميم نظام يعتمد على الرؤية الحاسوبية لتسجيل حضور الطلاب آلياً داخل القاعات الدراسية.",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "→ مشاريع قسم الحاسوب",
+        "label": null,
+        "placeholder": null,
+        "href": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8",
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-projects-4524aff3-7843-4e12-8281-5800d1312702-phone.png"
+  },
+  {
+    "route": "/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "→ مشاريع قسم التربية وعلم النفس\nقسم التربية وعلم النفس\n2025\n★ الملتقى الطلابي العلمي الثالث - طرابلس\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي\n\nسجلات الطلبة المرتبطة\n\nلا توجد سجلات خريجين مرتبطة بالمشروع حالياً.\n\nملخص المشروع\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "→ مشاريع قسم التربية وعلم النفس",
+        "label": null,
+        "placeholder": null,
+        "href": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D9%88%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3",
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-projects-0e142180-6db8-4e43-8544-009c54565525-desktop.png"
+  },
+  {
+    "route": "/projects/0e142180-6db8-4e43-8544-009c54565525",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "→ مشاريع قسم التربية وعلم النفس\nقسم التربية وعلم النفس\n2025\n★ الملتقى الطلابي العلمي الثالث - طرابلس\nأثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية\n\nإعداد: فاطمة عمر — إشراف: د. سعاد الهادي\n\nسجلات الطلبة المرتبطة\n\nلا توجد سجلات خريجين مرتبطة بالمشروع حالياً.\n\nملخص المشروع\n\nدراسة تجريبية على عينة من تلاميذ الصف الثالث في مدارس بني وليد.",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "→ مشاريع قسم التربية وعلم النفس",
+        "label": null,
+        "placeholder": null,
+        "href": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9+%D9%88%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D9%86%D9%81%D8%B3",
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-projects-0e142180-6db8-4e43-8544-009c54565525-phone.png"
+  },
+  {
+    "route": "/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "جارٍ التحميل...",
+    "controls": [],
+    "screenshot": "/tmp/browser/linked/source-projects-443ce1f7-f249-4fec-83e1-3a55a8a8a46b-desktop.png"
+  },
+  {
+    "route": "/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "جارٍ التحميل...",
+    "controls": [],
+    "screenshot": "/tmp/browser/linked/source-projects-443ce1f7-f249-4fec-83e1-3a55a8a8a46b-phone.png"
+  },
+  {
+    "route": "/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "layout": "desktop",
+    "text": "→ مشاريع قسم اللغة العربية\nقسم اللغة العربية\n2024\n★ مسابقة البحث العلمي بجامعة بني وليد\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج\n\nسجلات الطلبة المرتبطة\n\nلا توجد سجلات خريجين مرتبطة بالمشروع حالياً.\n\nملخص المشروع\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "→ مشاريع قسم اللغة العربية",
+        "label": null,
+        "placeholder": null,
+        "href": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-projects-5da1928f-3f94-4db7-ace1-72e32d2e8638-desktop.png"
+  },
+  {
+    "route": "/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "layout": "phone",
+    "text": "→ مشاريع قسم اللغة العربية\nقسم اللغة العربية\n2024\n★ مسابقة البحث العلمي بجامعة بني وليد\nالصورة الفنية في شعر الطبيعة الليبي الحديث\n\nإعداد: عائشة محمد — إشراف: د. عبدالسلام فرج\n\nسجلات الطلبة المرتبطة\n\nلا توجد سجلات خريجين مرتبطة بالمشروع حالياً.\n\nملخص المشروع\n\nقراءة نقدية في نماذج مختارة من شعراء ليبيا المعاصرين.",
+    "controls": [
+      {
+        "tag": "A",
+        "text": "→ مشاريع قسم اللغة العربية",
+        "label": null,
+        "placeholder": null,
+        "href": "/students?dept=%D9%82%D8%B3%D9%85+%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",
+        "type": null
+      }
+    ],
+    "screenshot": "/tmp/browser/linked/source-projects-5da1928f-3f94-4db7-ace1-72e32d2e8638-phone.png"
+  }
+]
