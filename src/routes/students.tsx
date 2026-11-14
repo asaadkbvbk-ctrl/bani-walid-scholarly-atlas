@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { filterProjects } from "@/lib/captured-projects";
 import capturedCSS from "../styles/pages/students.css?raw";
 
@@ -11,6 +11,8 @@ export const Route = createFileRoute("/students")({
 });
 
 function Index() {
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
   const search = Route.useSearch();
   const navigate = Route.useNavigate();
   const department = search['dept'] ?? "";
@@ -44,7 +46,7 @@ function Index() {
           </nav>
         </div>
       </header>
-      <main className="min-h-screen">
+      <main className="min-h-screen" data-ready={ready}>
         <section className={"\x62order-b \x62g-secondary/\x360"}>
           <div className="mx-auto max-w-6xl px-4 py-14">
             <h1 className="font-bold text-4xl text-primary md:text-5xl">مشاريع الطلاب</h1>

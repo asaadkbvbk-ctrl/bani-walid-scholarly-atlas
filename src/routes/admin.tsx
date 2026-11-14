@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import capturedCSS from "../styles/pages/admin.css?raw";
 
 export const Route = createFileRoute("/admin")({
@@ -9,6 +9,8 @@ export const Route = createFileRoute("/admin")({
 });
 
 function Index() {
+  const [ready, setReady] = useState(false);
+  useEffect(() => setReady(true), []);
   const [register, setRegister] = useState(false);
   const [notice, setNotice] = useState("");
   return (
@@ -38,7 +40,7 @@ function Index() {
           </nav>
         </div>
       </header>
-      <main className="min-h-screen">
+      <main className="min-h-screen" data-ready={ready}>
         <div className="mx-auto max-w-sm px-4 py-20">
           <div className={"rounded-2xl \x62order \x62g-card p-8 \x73hadow-lift"}>
             <h1 className="font-bold text-3xl text-primary">{register ? "إنشاء حساب مشرف" : "دخول المشرف"}</h1>
