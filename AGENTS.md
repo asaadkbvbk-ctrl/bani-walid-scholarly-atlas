@@ -30,4 +30,4 @@ use the editor.
 <!-- LOVABLE:END -->
 
 - Keep imported page markup and interactive search in its route file, with captured styles and locally hosted media separate, to preserve source structure during repairs.
-- The imported home page searches its captured project records only; connected data and additional destination pages require a separate request.
+- Imported public pages share captured project records for consistent filtering and use typed local links; live data and supervisor authentication are not connected by a website capture.
