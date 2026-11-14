@@ -1,0 +1,46 @@
+[
+  {
+    "layout": "desktop",
+    "viewport": {
+      "width": 1280,
+      "height": 1800
+    },
+    "steps": [
+      "home department link",
+      "filtered projects",
+      "project details",
+      "department return",
+      "project text search",
+      "clear search",
+      "advanced search department",
+      "search result details",
+      "graduate department and semester",
+      "registration toggle and return",
+      "statistics navigation"
+    ],
+    "status": "passed",
+    "errors": []
+  },
+  {
+    "layout": "phone",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "steps": [
+      "home department link",
+      "filtered projects",
+      "project details",
+      "department return",
+      "project text search",
+      "clear search",
+      "advanced search department",
+      "search result details",
+      "graduate department and semester",
+      "registration toggle and return",
+      "statistics navigation"
+    ],
+    "status": "passed",
+    "errors": []
+  }
+]
