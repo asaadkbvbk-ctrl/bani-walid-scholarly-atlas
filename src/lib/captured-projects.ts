@@ -37,8 +37,8 @@ export const capturedProjects = [
   }
 ] as const;
 
-export type ProjectFilters = { q?: string; dept?: string; year?: string; semester?: string; supervisor?: string; student?: string; keywords?: string };
+export type ProjectFilters = { q?: string | undefined; dept?: string | undefined; year?: string | undefined; semester?: string | undefined; supervisor?: string | undefined; student?: string | undefined; keywords?: string | undefined };
 export function filterProjects(filters: ProjectFilters) {
-  const contains = (text: string, query?: string) => text.toLocaleLowerCase().includes((query ?? "").trim().toLocaleLowerCase());
+  const contains = (text: string, query?: string | undefined) => text.toLocaleLowerCase().includes((query ?? "").trim().toLocaleLowerCase());
   return capturedProjects.filter(p => (!filters.dept || p.department === filters.dept) && (!filters.year || p.year === filters.year) && !filters.semester && contains(`${p.title} ${p.people} ${p.department} ${p.summary}`, filters.q) && contains(p.people.split(" — ")[1] ?? "", filters.supervisor) && contains(p.people.split(" — ")[0] ?? "", filters.student) && contains(`${p.title} ${p.summary}`, filters.keywords));
 }
