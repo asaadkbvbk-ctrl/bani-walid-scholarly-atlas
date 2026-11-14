@@ -1,13 +1,33 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useRef, useState } from "react";
 import capturedCSS from "../styles/site.css?raw";
 
+const searchableProjects = [
+  { id: "4524aff3-7843-4e12-8281-5800d1312702", department: "قسم الحاسوب", title: "نظام ذكي لإدارة الحضور باستخدام التعرف على الوجه", people: "أحمد سالم، محمد علي — إشراف: د. خالد المبروك" },
+  { id: "0e142180-6db8-4e43-8544-009c54565525", department: "قسم التربية وعلم النفس", title: "أثر الألعاب التعليمية في تنمية مهارات القراءة لدى تلاميذ المرحلة الابتدائية", people: "فاطمة عمر — إشراف: د. سعاد الهادي" },
+  { id: "443ce1f7-f249-4fec-83e1-3a55a8a8a46b", department: "قسم اللغة الإنجليزية", title: "صعوبات تعلم مهارة المحادثة باللغة الإنجليزية", people: "مريم عبدالله، هدى صالح — إشراف: د. نوري الطاهر" },
+  { id: "5da1928f-3f94-4db7-ace1-72e32d2e8638", department: "قسم اللغة العربية", title: "الصورة الفنية في شعر الطبيعة الليبي الحديث", people: "عائشة محمد — إشراف: د. عبدالسلام فرج" },
+];
+
 export const Route = createFileRoute("/")({
-  head: () => ({ meta: [{ title: "منظومة مشاريع التخرج والخريجين | كلية التربية - جامعة بني وليد" }] }),
+  head: () => ({ meta: [
+    { title: "منظومة مشاريع التخرج والخريجين | كلية التربية - جامعة بني وليد" },
+    { name: "description", content: "مشاريع التخرج وبيانات الخريجين وأقسام كلية التربية بجامعة بني وليد." },
+    { property: "og:title", content: "منظومة مشاريع التخرج والخريجين | جامعة بني وليد" },
+    { property: "og:description", content: "مشاريع التخرج وبيانات الخريجين وأقسام كلية التربية بجامعة بني وليد." },
+    { property: "og:type", content: "website" },
+    { name: "twitter:card", content: "summary_large_image" },
+  ] }),
   staticData: { importedDocument: { html: { "dir": "rtl", "lang": "ar" }, body: {  } } },
   component: Index,
 });
 
 function Index() {
+  const [query, setQuery] = useState("");
+  const searchInput = useRef<HTMLInputElement>(null);
+  const results = searchableProjects.filter(project =>
+    `${project.title} ${project.department} ${project.people}`.includes(query.trim()),
+  );
   return (
     <>
       <style>{capturedCSS}</style>
@@ -46,15 +66,29 @@ function Index() {
             <h1 className={"mt-3 max-w-3xl \x66ont-display text-4xl leading-tight text-primary-foreground md:text-5xl"}>منظومة مشاريع التخرج والخريجين</h1>
             <p className="mt-5 max-w-2xl text-xl font-bold text-primary-foreground">مرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج</p>
             <p className={"mt-2 max-w-2xl text-lg leading-loose \x74ext-primary-foreground/\x385"}>منصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.</p>
-            <div className="relative mt-8 max-w-2xl">
+            <div className="relative mt-8 max-w-2xl" onKeyDown={event => {
+              if (event.key === "Escape") {
+                setQuery("");
+                searchInput.current?.focus();
+              }
+            }}>
               <label className={"\x73r-only"} htmlFor="quick-search">البحث السريع</label>
               <div className={"flex items-center gap-2 rounded-xl \x62g-card p-2 \x73hadow-lift"}>
                 <svg className="mr-2 h-5 w-5 shrink-0 text-muted-foreground" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <circle cx="11" cy="11" r="7" />
                   <path d="m20 20-3.5-3.5" />
                 </svg>
-                <input className={"w-full bg-transparent px-2 py-2 text-foreground \x70laceholder:\x74ext-muted-foreground \x66ocus:\x6futline-none"} id="quick-search" type="search" placeholder="ابحث بعنوان المشروع، اسم الطالب، المشرف، أو القسم..." defaultValue="" />
+                <input className={"w-full bg-transparent px-2 py-2 text-foreground \x70laceholder:\x74ext-muted-foreground \x66ocus:\x6futline-none"} ref={searchInput} id="quick-search" type="search" placeholder="ابحث بعنوان المشروع، اسم الطالب، المشرف، أو القسم..." value={query} onChange={event => setQuery(event.target.value)} aria-expanded={Boolean(query.trim())} aria-controls="quick-search-results" />
               </div>
+              {query.trim() && <div id="quick-search-results" className="absolute inset-x-0 top-full z-30 mt-2 max-h-96 overflow-y-auto rounded-xl border bg-popover shadow-lift" aria-live="polite">
+                {results.length ? <ul className="divide-y">{results.map(project => <li key={project.id}>
+                  <a className="block p-4 transition hover:bg-secondary" href={`/projects/${project.id}`}>
+                    <span className="text-xs font-semibold text-primary">{project.department}</span>
+                    <p className="font-semibold text-popover-foreground">{project.title}</p>
+                    <p className="text-sm text-muted-foreground">{project.people}</p>
+                  </a>
+                </li>)}</ul> : <p className="p-4 text-sm text-muted-foreground">لا توجد نتائج مطابقة لعبارة «{query}».</p>}
+              </div>}
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <a className={"rounded-lg \x62g-gold px-5 py-3 font-semibold text-gold-foreground"} href="/students">تصفّح جميع المشاريع</a>
