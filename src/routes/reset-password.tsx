@@ -2,6 +2,7 @@ import { createFileRoute, Link } from '@tanstack/react-router';
 import { useEffect, useState } from 'react';
 import { supabase } from '@/integrations/supabase/client';
 import { Button } from '@/components/ui/button';
+import { useSupervisorSession } from '@/components/supervisor-session';
 
 export const Route = createFileRoute('/reset-password')({
   head: () => ({ meta: [
@@ -15,18 +16,19 @@ export const Route = createFileRoute('/reset-password')({
   component: ResetPassword,
 });
 function ResetPassword() {
+  const { recovery: recoverySession } = useSupervisorSession();
   const [valid, setValid] = useState(false);
   const [checked, setChecked] = useState(false);
   const [busy, setBusy] = useState(false);
   const [notice, setNotice] = useState('');
   useEffect(() => {
     const hash = new URLSearchParams(window.location.hash.slice(1));
-    const recovery = hash.get('type') === 'recovery';
+    const recovery = hash.get('type') === 'recovery' || recoverySession;
     void supabase.auth.getUser().then(({ data, error }) => {
       setValid(recovery && !error && !!data.user);
       setChecked(true);
     });
-  }, []);
+  }, [recoverySession]);
   return <main className="mx-auto min-h-screen max-w-sm px-4 py-20">
     <img src="/site-assets/d0f6360e35312736.png" alt="كلية التربية" className="mb-6 h-16 w-auto" />
     <h1 className="text-3xl font-bold">تعيين كلمة المرور</h1>
