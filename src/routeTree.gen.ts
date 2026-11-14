@@ -10,11 +10,14 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as AdminRouteImport } from './routes/admin'
+import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
+import { Route as AuthRouteImport } from './routes/auth'
 import { Route as GraduatesRouteImport } from './routes/graduates'
+import { Route as ResetPasswordRouteImport } from './routes/reset-password'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as StatsRouteImport } from './routes/stats'
 import { Route as StudentsRouteImport } from './routes/students'
+import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
 import { Route as Projects0e1421806db84e438544009c54565525RouteImport } from './routes/projects_.0e142180-6db8-4e43-8544-009c54565525'
 import { Route as Projects443ce1f7F2494fec83e13a55a8a8a46bRouteImport } from './routes/projects_.443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
 import { Route as Projects4524aff378434e1282815800d1312702RouteImport } from './routes/projects_.4524aff3-7843-4e12-8281-5800d1312702'
@@ -25,14 +28,23 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AdminRoute = AdminRouteImport.update({
-  id: '/admin',
-  path: '/admin',
+const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
+  id: '/_authenticated',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GraduatesRoute = GraduatesRouteImport.update({
   id: '/graduates',
   path: '/graduates',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResetPasswordRoute = ResetPasswordRouteImport.update({
+  id: '/reset-password',
+  path: '/reset-password',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchRoute = SearchRouteImport.update({
@@ -49,6 +61,11 @@ const StudentsRoute = StudentsRouteImport.update({
   id: '/students',
   path: '/students',
   getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
 const Projects0e1421806db84e438544009c54565525Route =
   Projects0e1421806db84e438544009c54565525RouteImport.update({
@@ -77,11 +94,13 @@ const Projects5da1928f3f944db7Ace172e32d2e8638Route =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
+  '/reset-password': typeof ResetPasswordRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/projects/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -89,11 +108,13 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
+  '/reset-password': typeof ResetPasswordRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
+  '/admin': typeof AuthenticatedAdminRoute
   '/projects/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -102,11 +123,14 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/admin': typeof AdminRoute
+  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
+  '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
+  '/reset-password': typeof ResetPasswordRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
+  '/_authenticated/admin': typeof AuthenticatedAdminRoute
   '/projects_/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects_/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -116,11 +140,13 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/admin'
+    | '/auth'
     | '/graduates'
+    | '/reset-password'
     | '/search'
     | '/stats'
     | '/students'
+    | '/admin'
     | '/projects/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
@@ -128,11 +154,13 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/admin'
+    | '/auth'
     | '/graduates'
+    | '/reset-password'
     | '/search'
     | '/stats'
     | '/students'
+    | '/admin'
     | '/projects/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
@@ -140,11 +168,14 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/admin'
+    | '/_authenticated'
+    | '/auth'
     | '/graduates'
+    | '/reset-password'
     | '/search'
     | '/stats'
     | '/students'
+    | '/_authenticated/admin'
     | '/projects_/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects_/4524aff3-7843-4e12-8281-5800d1312702'
@@ -153,8 +184,10 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AdminRoute: typeof AdminRoute
+  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
+  AuthRoute: typeof AuthRoute
   GraduatesRoute: typeof GraduatesRoute
+  ResetPasswordRoute: typeof ResetPasswordRoute
   SearchRoute: typeof SearchRoute
   StatsRoute: typeof StatsRoute
   StudentsRoute: typeof StudentsRoute
@@ -173,11 +206,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/admin': {
-      id: '/admin'
-      path: '/admin'
-      fullPath: '/admin'
-      preLoaderRoute: typeof AdminRouteImport
+    '/_authenticated': {
+      id: '/_authenticated'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AuthenticatedRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/graduates': {
@@ -185,6 +225,13 @@ declare module '@tanstack/react-router' {
       path: '/graduates'
       fullPath: '/graduates'
       preLoaderRoute: typeof GraduatesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reset-password': {
+      id: '/reset-password'
+      path: '/reset-password'
+      fullPath: '/reset-password'
+      preLoaderRoute: typeof ResetPasswordRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search': {
@@ -207,6 +254,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/students'
       preLoaderRoute: typeof StudentsRouteImport
       parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/admin': {
+      id: '/_authenticated/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AuthenticatedAdminRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
     }
     '/projects_/0e142180-6db8-4e43-8544-009c54565525': {
       id: '/projects_/0e142180-6db8-4e43-8544-009c54565525'
@@ -239,10 +293,23 @@ declare module '@tanstack/react-router' {
   }
 }
 
+interface AuthenticatedRouteRouteChildren {
+  AuthenticatedAdminRoute: typeof AuthenticatedAdminRoute
+}
+
+const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedAdminRoute: AuthenticatedAdminRoute,
+}
+
+const AuthenticatedRouteRouteWithChildren =
+  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AdminRoute: AdminRoute,
+  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
+  AuthRoute: AuthRoute,
   GraduatesRoute: GraduatesRoute,
+  ResetPasswordRoute: ResetPasswordRoute,
   SearchRoute: SearchRoute,
   StatsRoute: StatsRoute,
   StudentsRoute: StudentsRoute,

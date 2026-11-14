@@ -271,3 +271,27 @@
   --tracking-widest: .1em;
 }
 /* site-import tokens: end */
+
+:root {
+  --google-background: #ffffff;
+  --google-foreground: #1f1f1f;
+  --google-border: #747775;
+}
+.dark {
+  --google-background: #131314;
+  --google-foreground: #e3e3e3;
+  --google-border: #8e918f;
+}
+.google-auth-button {
+  background: var(--google-background);
+  color: var(--google-foreground);
+  border: 1px solid var(--google-border);
+  gap: 10px;
+  padding-inline: 12px;
+  height: 40px;
+}
+.google-auth-button:hover {
+  background: var(--google-background);
+  color: var(--google-foreground);
+}
+.google-auth-button svg { width: 18px; height: 18px; }
