@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Keep imported page markup and interactive search in its route file, with captured styles and locally hosted media separate, to preserve source structure during repairs.
+- The imported home page searches its captured project records only; connected data and additional destination pages require a separate request.
