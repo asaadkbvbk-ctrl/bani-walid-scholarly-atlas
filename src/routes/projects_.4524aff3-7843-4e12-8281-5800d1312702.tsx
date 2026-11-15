@@ -12,11 +12,6 @@ function Index() {
     <>
       <style>{capturedCSS}</style>
       <header className={"sticky top-0 z-40 \x62order-b \x62g-background/\x390 \x62ackdrop-blur"}>
-        <div className={"\x62order-b \x62g-primary text-primary-foreground"}>
-          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-1.5 text-xs">
-            <span className="font-semibold">منظومة مشاريع التخرج والخريجين</span>
-          </div>
-        </div>
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-3">
           <Link className="flex items-center gap-3" to="/">
             <img className="h-12 w-auto" src="/site-assets/d0f6360e35312736.png" alt="شعار كلية التربية - جامعة بني وليد" />
