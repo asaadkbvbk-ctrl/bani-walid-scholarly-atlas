@@ -1,6 +1,6 @@
 import { createServerFn } from '@tanstack/react-start';
 import { requireSupabaseAuth } from '@/integrations/supabase/auth-middleware';
-import { canAccessAdmin, isSupervisorPosition } from './supervisor-access';
+import { canAccessAdmin, canManagePlatform, isSupervisorPosition } from './supervisor-access';
 
 export const getSupervisorAccount = createServerFn({ method: 'GET' })
   .middleware([requireSupabaseAuth])
@@ -10,7 +10,7 @@ export const getSupervisorAccount = createServerFn({ method: 'GET' })
     if (!canAccessAdmin((roles ?? []).map(row => row.role))) return { approved: false as const, profile: null };
     const { data: profile, error: profileError } = await context.supabase.from('profiles').select('display_name, department').eq('id', context.userId).single();
     if (profileError) throw new Error('تعذر تحميل الملف الشخصي.');
-    return { approved: true as const, profile, supervisor_position: roles?.find(row => row.role === 'supervisor')?.supervisor_position ?? 'first' };
+    return { approved: true as const, profile, canManage: canManagePlatform((roles ?? []).map(row => row.role)), supervisor_position: roles?.find(row => row.role === 'supervisor')?.supervisor_position ?? 'first' };
   });
 
 export const saveSupervisorProfile = createServerFn({ method: 'POST' })

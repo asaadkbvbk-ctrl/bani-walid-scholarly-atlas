@@ -5,6 +5,8 @@ import { useServerFn } from '@tanstack/react-start';
 import { Button } from '@/components/ui/button';
 import { SignOutButton } from '@/components/supervisor-session';
 import { getSupervisorAccount, saveSupervisorProfile } from '@/lib/supervisor.functions';
+import { PlatformSettingsForm } from '@/components/platform-settings-form';
+import { platformOptions } from '@/lib/platform-query';
 import capturedCSS from '../../styles/pages/admin.css?raw';
 
 const accountOptions = queryOptions({ queryKey: ['supervisor-account'], queryFn: () => getSupervisorAccount(), staleTime: 0 });
@@ -17,7 +19,7 @@ export const Route = createFileRoute('/_authenticated/admin')({
     { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary' }, { name: 'robots', content: 'noindex' },
   ] }),
   staticData: { importedDocument: { html: { dir: 'rtl', lang: 'ar' } } },
-  loader: ({ context }) => context.queryClient.ensureQueryData(accountOptions),
+  loader: async ({ context }) => { await Promise.all([context.queryClient.ensureQueryData(accountOptions), context.queryClient.ensureQueryData(platformOptions)]); },
   component: Admin,
 });
 function Admin() {
@@ -69,6 +71,7 @@ function Admin() {
               {notice && <p role="status" className="text-sm text-muted-foreground">{notice}</p>}
             </form>
           </section>
+          <PlatformSettingsForm canManage={account.canManage} />
           <section className="mt-10 border-t pt-6"><h2 className="text-xl font-bold">مشاريع التخرج</h2><p className="my-3 text-muted-foreground">بيانات المشاريع الحالية نسخة مستوردة. نشر المشاريع وتعديلها لم يُربط بعد.</p><Button asChild variant="outline"><Link to="/students">عرض المشاريع</Link></Button></section>
         </>}
       </main>

@@ -34,3 +34,5 @@ use the editor.
 - Cloud Auth owns supervisor accounts; a lifecycle trigger assigns only the limited supervisor role, with first/second position stored in the non-client-writable roles table; an owner-scoped RPC changes only that position to prevent privilege escalation.
 - Keep the admin route under the client-only authenticated layout, and recheck server-assigned roles inside every private server function because UI gates cannot secure endpoints.
 - Maintain one root auth subscriber and cancel and clear protected query state before sign-out to prevent stale account data.
+- Public platform settings use a public read-only server function and authenticated administrator-only writes with RLS; registration position is never used for authorization because it is user-selectable.
+- Prefetch PDF guides into validated Files before download clicks; use the native share sheet on touch devices to preserve user activation on iOS.
