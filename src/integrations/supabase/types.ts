@@ -14,6 +14,48 @@ export type Database = {
   }
   public: {
     Tables: {
+      platform_settings: {
+        Row: {
+          author_name: string
+          college_name: string
+          guide_url: string
+          id: string
+          introduction: string
+          location: string
+          platform_name: string
+          supervisor_name: string
+          university_name: string
+          updated_at: string
+          welcome_text: string
+        }
+        Insert: {
+          author_name?: string
+          college_name?: string
+          guide_url?: string
+          id?: string
+          introduction?: string
+          location?: string
+          platform_name?: string
+          supervisor_name?: string
+          university_name?: string
+          updated_at?: string
+          welcome_text?: string
+        }
+        Update: {
+          author_name?: string
+          college_name?: string
+          guide_url?: string
+          id?: string
+          introduction?: string
+          location?: string
+          platform_name?: string
+          supervisor_name?: string
+          university_name?: string
+          updated_at?: string
+          welcome_text?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           created_at: string

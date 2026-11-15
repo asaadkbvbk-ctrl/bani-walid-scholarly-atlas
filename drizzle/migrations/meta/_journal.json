@@ -15,6 +15,13 @@
       "when": 1794745921468,
       "tag": "0001_open_supervisor_registration",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794756369047,
+      "tag": "0002_platform_settings_management",
+      "breakpoints": true
     }
   ]
 }
