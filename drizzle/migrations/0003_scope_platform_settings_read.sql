@@ -1,0 +1,2 @@
+DROP POLICY IF EXISTS "Public platform settings" ON public.platform_settings;
+CREATE POLICY "Public platform settings" ON public.platform_settings FOR SELECT TO anon, authenticated USING (id = 'main');
