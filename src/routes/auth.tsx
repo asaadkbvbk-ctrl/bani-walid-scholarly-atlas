@@ -48,7 +48,7 @@ function Index() {
         <div className="mx-auto max-w-sm px-4 py-20">
           <div className="rounded-2xl border bg-card p-8 shadow-lift">
             <h1 className="font-bold text-3xl text-primary">{forgot ? 'استعادة كلمة المرور' : register ? 'إنشاء حساب مشرف' : 'دخول المشرف'}</h1>
-            <p className="mt-2 text-sm text-muted-foreground">{register ? 'يتطلب الدخول إلى لوحة التحكم موافقة على صلاحية المشرف.' : 'كلية التربية — جامعة بني وليد'}</p>
+            <p className="mt-2 text-sm text-muted-foreground">كلية التربية — جامعة بني وليد</p>
             <form className="mt-5 space-y-3" onSubmit={async event => {
               event.preventDefault(); setBusy(true); setNotice('');
               const form = new FormData(event.currentTarget);
@@ -60,8 +60,8 @@ function Index() {
                   setNotice(error ? 'تعذر إرسال الرسالة. حاول مجدداً.' : 'إذا كان البريد مسجلاً، ستصلك رسالة لاستعادة كلمة المرور.');
                 } else if (register) {
                   if (password !== form.get('confirm')) { setNotice('كلمتا المرور غير متطابقتين.'); return; }
-                  const { error } = await supabase.auth.signUp({ email, password, options: { emailRedirectTo: window.location.origin + '/auth', data: { display_name: String(form.get('display_name')), department: String(form.get('department')) } } });
-                  setNotice(error ? 'تعذر إنشاء الحساب. تحقق من البيانات أو حاول لاحقاً.' : 'تحقق من بريدك الإلكتروني لتأكيد الحساب. صلاحية المشرف تتطلب موافقة منفصلة.');
+                  const { error } = await supabase.auth.signUp({ email, password, options: { emailRedirectTo: window.location.origin + '/auth', data: { display_name: String(form.get('display_name')), department: String(form.get('department')), supervisor_position: String(form.get('supervisor_position')) } } });
+                  setNotice(error ? 'تعذر إنشاء الحساب. تحقق من البيانات أو حاول لاحقاً.' : 'تم إنشاء الحساب دون موافقة مسؤول. تحقق من بريدك الإلكتروني لتأكيد الحساب ثم سجّل الدخول.');
                 } else {
                   const { error } = await supabase.auth.signInWithPassword({ email, password });
                   if (error) setNotice('تعذر الدخول. تحقق من البريد وكلمة المرور وتأكيد البريد.');
@@ -71,6 +71,7 @@ function Index() {
               finally { setBusy(false); }
             }}>
               {register && !forgot && <><input name="display_name" aria-label="اسم المشرف" placeholder="اسم المشرف" required maxLength={120} className="w-full rounded-lg border bg-background px-3 py-2 text-sm"/><input name="department" aria-label="القسم" placeholder="القسم" maxLength={120} className="w-full rounded-lg border bg-background px-3 py-2 text-sm"/></>}
+              {register && !forgot && <label className="block text-sm">نوع المشرف<select name="supervisor_position" aria-label="نوع المشرف" defaultValue="first" className="mt-2 w-full rounded-lg border bg-background px-3 py-2"><option value="first">مشرف أول</option><option value="second">مشرف ثانٍ</option></select></label>}
               <input name="email" aria-label="البريد الإلكتروني" placeholder="البريد الإلكتروني" autoComplete="email" required dir="ltr" type="email" className="w-full rounded-lg border bg-background px-3 py-2 text-sm"/>
               {!forgot && <input name="password" aria-label="كلمة المرور" placeholder="كلمة المرور" autoComplete={register ? 'new-password' : 'current-password'} required minLength={register ? 8 : 6} dir="ltr" type="password" className="w-full rounded-lg border bg-background px-3 py-2 text-sm"/>}
               {register && !forgot && <input name="confirm" aria-label="تأكيد كلمة المرور" placeholder="تأكيد كلمة المرور" autoComplete="new-password" required minLength={8} dir="ltr" type="password" className="w-full rounded-lg border bg-background px-3 py-2 text-sm"/>}

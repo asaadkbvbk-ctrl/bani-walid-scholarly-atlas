@@ -39,16 +39,19 @@ export type Database = {
         Row: {
           id: string
           role: Database["public"]["Enums"]["app_role"]
+          supervisor_position: string
           user_id: string
         }
         Insert: {
           id?: string
           role: Database["public"]["Enums"]["app_role"]
+          supervisor_position?: string
           user_id: string
         }
         Update: {
           id?: string
           role?: Database["public"]["Enums"]["app_role"]
+          supervisor_position?: string
           user_id?: string
         }
         Relationships: []
@@ -64,6 +67,10 @@ export type Database = {
           _user_id: string
         }
         Returns: boolean
+      }
+      set_supervisor_position: {
+        Args: { _position: string }
+        Returns: undefined
       }
     }
     Enums: {
