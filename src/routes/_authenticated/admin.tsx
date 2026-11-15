@@ -7,6 +7,8 @@ import { SignOutButton } from '@/components/supervisor-session';
 import { getSupervisorAccount, saveSupervisorProfile } from '@/lib/supervisor.functions';
 import { PlatformSettingsForm } from '@/components/platform-settings-form';
 import { platformOptions } from '@/lib/platform-query';
+import { catalogOptions, documentsOptions } from '@/lib/project-query';
+import { ProjectManager } from '@/components/project-manager';
 import capturedCSS from '../../styles/pages/admin.css?raw';
 
 const accountOptions = queryOptions({ queryKey: ['supervisor-account'], queryFn: () => getSupervisorAccount(), staleTime: 0 });
@@ -19,7 +21,7 @@ export const Route = createFileRoute('/_authenticated/admin')({
     { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary' }, { name: 'robots', content: 'noindex' },
   ] }),
   staticData: { importedDocument: { html: { dir: 'rtl', lang: 'ar' } } },
-  loader: async ({ context }) => { await Promise.all([context.queryClient.ensureQueryData(accountOptions), context.queryClient.ensureQueryData(platformOptions)]); },
+  loader: async ({ context }) => { await Promise.all([context.queryClient.ensureQueryData(accountOptions), context.queryClient.ensureQueryData(platformOptions), context.queryClient.ensureQueryData(catalogOptions), context.queryClient.ensureQueryData(documentsOptions)]); },
   component: Admin,
 });
 function Admin() {
@@ -72,7 +74,7 @@ function Admin() {
             </form>
           </section>
           <PlatformSettingsForm canManage={account.canManage} />
-          <section className="mt-10 border-t pt-6"><h2 className="text-xl font-bold">مشاريع التخرج</h2><p className="my-3 text-muted-foreground">بيانات المشاريع الحالية نسخة مستوردة. نشر المشاريع وتعديلها لم يُربط بعد.</p><Button asChild variant="outline"><Link to="/students">عرض المشاريع</Link></Button></section>
+          <ProjectManager />
         </>}
       </main>
       <footer className={"mt-20 \x62g-primary text-primary-foreground"}>

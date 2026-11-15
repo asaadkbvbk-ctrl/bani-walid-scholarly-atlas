@@ -18,6 +18,7 @@ import { Route as SearchRouteImport } from './routes/search'
 import { Route as StatsRouteImport } from './routes/stats'
 import { Route as StudentsRouteImport } from './routes/students'
 import { Route as AuthenticatedAdminRouteImport } from './routes/_authenticated/admin'
+import { Route as ProjectsProjectIdRouteImport } from './routes/projects_.$projectId'
 import { Route as Projects0e1421806db84e438544009c54565525RouteImport } from './routes/projects_.0e142180-6db8-4e43-8544-009c54565525'
 import { Route as Projects443ce1f7F2494fec83e13a55a8a8a46bRouteImport } from './routes/projects_.443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
 import { Route as Projects4524aff378434e1282815800d1312702RouteImport } from './routes/projects_.4524aff3-7843-4e12-8281-5800d1312702'
@@ -67,6 +68,11 @@ const AuthenticatedAdminRoute = AuthenticatedAdminRouteImport.update({
   path: '/admin',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const ProjectsProjectIdRoute = ProjectsProjectIdRouteImport.update({
+  id: '/projects_/$projectId',
+  path: '/projects/$projectId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const Projects0e1421806db84e438544009c54565525Route =
   Projects0e1421806db84e438544009c54565525RouteImport.update({
     id: '/projects_/0e142180-6db8-4e43-8544-009c54565525',
@@ -101,6 +107,7 @@ export interface FileRoutesByFullPath {
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
   '/admin': typeof AuthenticatedAdminRoute
+  '/projects/$projectId': typeof ProjectsProjectIdRoute
   '/projects/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -115,6 +122,7 @@ export interface FileRoutesByTo {
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
   '/admin': typeof AuthenticatedAdminRoute
+  '/projects/$projectId': typeof ProjectsProjectIdRoute
   '/projects/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -131,6 +139,7 @@ export interface FileRoutesById {
   '/stats': typeof StatsRoute
   '/students': typeof StudentsRoute
   '/_authenticated/admin': typeof AuthenticatedAdminRoute
+  '/projects_/$projectId': typeof ProjectsProjectIdRoute
   '/projects_/0e142180-6db8-4e43-8544-009c54565525': typeof Projects0e1421806db84e438544009c54565525Route
   '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects_/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
@@ -147,6 +156,7 @@ export interface FileRouteTypes {
     | '/stats'
     | '/students'
     | '/admin'
+    | '/projects/$projectId'
     | '/projects/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
@@ -161,6 +171,7 @@ export interface FileRouteTypes {
     | '/stats'
     | '/students'
     | '/admin'
+    | '/projects/$projectId'
     | '/projects/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
@@ -176,6 +187,7 @@ export interface FileRouteTypes {
     | '/stats'
     | '/students'
     | '/_authenticated/admin'
+    | '/projects_/$projectId'
     | '/projects_/0e142180-6db8-4e43-8544-009c54565525'
     | '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects_/4524aff3-7843-4e12-8281-5800d1312702'
@@ -191,6 +203,7 @@ export interface RootRouteChildren {
   SearchRoute: typeof SearchRoute
   StatsRoute: typeof StatsRoute
   StudentsRoute: typeof StudentsRoute
+  ProjectsProjectIdRoute: typeof ProjectsProjectIdRoute
   Projects0e1421806db84e438544009c54565525Route: typeof Projects0e1421806db84e438544009c54565525Route
   Projects443ce1f7F2494fec83e13a55a8a8a46bRoute: typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   Projects4524aff378434e1282815800d1312702Route: typeof Projects4524aff378434e1282815800d1312702Route
@@ -262,6 +275,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedAdminRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/projects_/$projectId': {
+      id: '/projects_/$projectId'
+      path: '/projects/$projectId'
+      fullPath: '/projects/$projectId'
+      preLoaderRoute: typeof ProjectsProjectIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/projects_/0e142180-6db8-4e43-8544-009c54565525': {
       id: '/projects_/0e142180-6db8-4e43-8544-009c54565525'
       path: '/projects/0e142180-6db8-4e43-8544-009c54565525'
@@ -313,6 +333,7 @@ const rootRouteChildren: RootRouteChildren = {
   SearchRoute: SearchRoute,
   StatsRoute: StatsRoute,
   StudentsRoute: StudentsRoute,
+  ProjectsProjectIdRoute: ProjectsProjectIdRoute,
   Projects0e1421806db84e438544009c54565525Route:
     Projects0e1421806db84e438544009c54565525Route,
   Projects443ce1f7F2494fec83e13a55a8a8a46bRoute:

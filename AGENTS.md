@@ -36,3 +36,5 @@ use the editor.
 - Maintain one root auth subscriber and cancel and clear protected query state before sign-out to prevent stale account data.
 - Public platform settings use a public read-only server function and authenticated administrator-only writes with RLS; registration position is never used for authorization because it is user-selectable.
 - Prefetch PDF guides into validated Files before download clicks; use the native share sheet on touch devices to preserve user activation on iOS.
+- Manage project overrides and deletion markers in Cloud while retaining captured originals; public catalogs merge overrides so imported records can be edited without destructive reseeding.
+- Both server-assigned supervisors manage projects and private PDF/Excel documents through role-checked functions and Storage RLS; position choices never grant platform-settings administration.

@@ -1,4 +1,6 @@
 # Current platform review
+- [ ] Enable supervisor project creation, editing, deletion, PDF/Excel uploads and secure downloads.
+- [ ] Verify signed-in project and file create/download/delete flows and permissions.
 - [x] Repair and verify guide download on desktop and mobile Chromium; native iOS share delivery implemented but not tested on an iPhone.
 - [x] Add administrator-only name, welcome text, footer and guide settings with read-only assistant access.
 - [x] Verify all home destinations, 38 department buttons, search inputs/selects, auth toggles and signed-in profile save/reload.
