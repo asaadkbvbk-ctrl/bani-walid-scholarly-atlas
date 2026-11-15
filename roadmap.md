@@ -1,3 +1,9 @@
+# Current platform review
+- [ ] Repair and verify guide download, including mobile delivery.
+- [ ] Add securely assigned platform management and read-only assistant access.
+- [ ] Verify public controls and signed-in settings save/readback.
+- [ ] Assign full management to the first supervisor (blocked: account email not supplied).
+
 # Supervisor registration update
 - [x] Remove manual supervisor approval while preserving administrator restrictions.
 - [x] Add first/second supervisor selection and display the saved selection.
