@@ -52,16 +52,16 @@ function Admin() {
         </div>
       </header>
       <main className="mx-auto min-h-screen max-w-6xl px-4 py-12" data-ready="true">
-        {!account.approved ? <section className="mx-auto max-w-lg py-12"><h1 className="text-3xl font-bold">الحساب بانتظار الموافقة</h1><p className="my-6 text-muted-foreground">تم تسجيل الدخول، لكن حسابك لا يملك صلاحية المشرف بعد. تواصل مع مسؤول المنظومة لاعتماد حسابك.</p><SignOutButton /></section> : <>
+        {!account.approved ? <section className="mx-auto max-w-lg py-12"><h1 className="text-3xl font-bold">تعذر فتح حساب المشرف</h1><p className="my-6 text-muted-foreground">تعذر التحقق من صلاحية الحساب. سجّل الدخول مجدداً وحاول مرة أخرى.</p><SignOutButton /></section> : <>
           <h1 className="text-3xl font-bold">لوحة المشرف</h1>
-          <p className="mt-3 text-muted-foreground">مرحباً {account.profile?.display_name || 'بالمشرف'}</p>
+          <p className="mt-3 text-muted-foreground">مرحباً {account.profile?.display_name || 'بالمشرف'} — {account.supervisor_position === 'second' ? 'مشرف ثانٍ' : 'مشرف أول'}</p>
           <section className="mt-10 max-w-lg">
             <h2 className="text-xl font-bold">الملف الشخصي</h2>
             <form className="mt-5 space-y-4" onSubmit={async event => {
               event.preventDefault(); setBusy(true); setNotice('');
               const form = new FormData(event.currentTarget);
               try {
-                await saveProfile({ data: { display_name: String(form.get('display_name')), department: String(form.get('department')) } });
+                await saveProfile({ data: { display_name: String(form.get('display_name')), department: String(form.get('department')), supervisor_position: String(form.get('supervisor_position')) } });
                 await queryClient.invalidateQueries({ queryKey: ['supervisor-account'] });
                 setNotice('تم حفظ الملف الشخصي.');
               } catch { setNotice('تعذر حفظ الملف الشخصي. تحقق من صلاحية حسابك وحاول مجدداً.'); }
@@ -69,6 +69,7 @@ function Admin() {
             }}>
               <label className="block">اسم المشرف<input name="display_name" required maxLength={120} defaultValue={account.profile?.display_name} className="mt-2 w-full rounded-lg border bg-card px-3 py-2" /></label>
               <label className="block">القسم<input name="department" maxLength={120} defaultValue={account.profile?.department} className="mt-2 w-full rounded-lg border bg-card px-3 py-2" /></label>
+              <label className="block">نوع المشرف<select name="supervisor_position" aria-label="نوع المشرف" defaultValue={account.supervisor_position} className="mt-2 w-full rounded-lg border bg-card px-3 py-2"><option value="first">مشرف أول</option><option value="second">مشرف ثانٍ</option></select></label>
               <Button disabled={busy}>{busy ? 'جارٍ الحفظ…' : 'حفظ الملف الشخصي'}</Button>
               {notice && <p role="status" className="text-sm text-muted-foreground">{notice}</p>}
             </form>

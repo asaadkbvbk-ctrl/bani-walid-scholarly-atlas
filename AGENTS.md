@@ -31,6 +31,6 @@ use the editor.
 
 - Keep imported page markup and interactive search in its route file, with captured styles and locally hosted media separate, to preserve source structure during repairs.
 - Imported public pages share captured project records for consistent filtering and use typed local links; project data remains a capture independent of Cloud accounts.
-- Cloud Auth owns supervisor accounts; profile data is owner-scoped and roles live in a separate non-client-writable table so signup cannot grant administrative access.
-- Keep the admin route under the client-only authenticated layout, and recheck approved roles inside every private server function because UI gates cannot secure endpoints.
+- Cloud Auth owns supervisor accounts; a lifecycle trigger assigns only the limited supervisor role, with first/second position stored in the non-client-writable roles table; an owner-scoped RPC changes only that position to prevent privilege escalation.
+- Keep the admin route under the client-only authenticated layout, and recheck server-assigned roles inside every private server function because UI gates cannot secure endpoints.
 - Maintain one root auth subscriber and cancel and clear protected query state before sign-out to prevent stale account data.
