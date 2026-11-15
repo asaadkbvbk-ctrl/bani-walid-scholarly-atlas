@@ -14,6 +14,42 @@ export type Database = {
   }
   public: {
     Tables: {
+      managed_projects: {
+        Row: {
+          deleted: boolean
+          department: string
+          id: string
+          people: string
+          semester: string
+          summary: string
+          title: string
+          updated_at: string
+          year: string
+        }
+        Insert: {
+          deleted?: boolean
+          department?: string
+          id?: string
+          people?: string
+          semester?: string
+          summary?: string
+          title?: string
+          updated_at?: string
+          year?: string
+        }
+        Update: {
+          deleted?: boolean
+          department?: string
+          id?: string
+          people?: string
+          semester?: string
+          summary?: string
+          title?: string
+          updated_at?: string
+          year?: string
+        }
+        Relationships: []
+      }
       platform_settings: {
         Row: {
           author_name: string
@@ -76,6 +112,44 @@ export type Database = {
           id?: string
         }
         Relationships: []
+      }
+      project_documents: {
+        Row: {
+          created_at: string
+          id: string
+          mime: string
+          name: string
+          path: string
+          project_id: string
+          size: number
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          mime?: string
+          name: string
+          path: string
+          project_id: string
+          size?: number
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          mime?: string
+          name?: string
+          path?: string
+          project_id?: string
+          size?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "project_documents_project_id_fkey"
+            columns: ["project_id"]
+            isOneToOne: false
+            referencedRelation: "managed_projects"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       user_roles: {
         Row: {
