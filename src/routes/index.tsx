@@ -3,6 +3,9 @@ import heroBackground from "@/assets/hero-background.jpg.asset.json";
 import { useRef, useState } from "react";
 import { capturedProjects as searchableProjects } from "@/lib/captured-projects";
 import capturedCSS from "../styles/site.css?raw";
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { platformOptions } from '@/lib/platform-query';
+import { GuideDownload } from '@/components/guide-download';
 
 
 
@@ -18,10 +21,12 @@ export const Route = createFileRoute("/")({
     { name: "twitter:image", content: "https://bani-walid-scholarly-atlas.lovable.app/og-image.png" },
   ] }),
   staticData: { importedDocument: { html: { "dir": "rtl", "lang": "ar" }, body: {  } } },
+  loader: ({ context }) => context.queryClient.ensureQueryData(platformOptions),
   component: Index,
 });
 
 function Index() {
+  const { data: settings } = useSuspenseQuery(platformOptions);
   const [query, setQuery] = useState("");
   const searchInput = useRef<HTMLInputElement>(null);
   const results = searchableProjects.filter(project =>
@@ -35,8 +40,8 @@ function Index() {
           <Link className="flex items-center gap-3" aria-current="page" to="/">
             <img className="h-12 w-auto" src="/site-assets/d0f6360e35312736.png" alt="شعار كلية التربية - جامعة بني وليد" />
             <span className="leading-tight">
-              <span className="block font-bold text-lg text-foreground">كلية التربية</span>
-              <span className="block text-xs text-muted-foreground">جامعة بني وليد</span>
+              <span className="block font-bold text-lg text-foreground">{settings.college_name}</span>
+              <span className="block text-xs text-muted-foreground">{settings.university_name}</span>
             </span>
           </Link>
           <nav className="flex flex-wrap gap-1 text-sm">
@@ -56,10 +61,10 @@ function Index() {
             <div className="hero-overlay absolute inset-0" />
           </div>
           <div className="relative mx-auto max-w-6xl px-4 py-24 md:py-32">
-            <p className="text-sm font-semibold text-gold">كلية التربية - جامعة بني وليد</p>
-            <h1 className={"mt-3 max-w-3xl \x66ont-display text-4xl leading-tight text-primary-foreground md:text-5xl"}>منظومة مشاريع التخرج والخريجين</h1>
-            <p className="mt-5 max-w-2xl text-xl font-bold text-primary-foreground">مرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج</p>
-            <p className={"mt-2 max-w-2xl text-lg leading-loose \x74ext-primary-foreground/\x385"}>منصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.</p>
+            <p className="text-sm font-semibold text-gold">{settings.college_name} - {settings.university_name}</p>
+            <h1 className={"mt-3 max-w-3xl \x66ont-display text-4xl leading-tight text-primary-foreground md:text-5xl"}>{settings.platform_name}</h1>
+            <p className="mt-5 max-w-2xl text-xl font-bold text-primary-foreground">{settings.welcome_text}</p>
+            <p className={"mt-2 max-w-2xl text-lg leading-loose \x74ext-primary-foreground/\x385"}>{settings.introduction}</p>
             <div className="relative mt-8 max-w-2xl" onKeyDown={event => {
               if (event.key === "Escape") {
                 setQuery("");
@@ -86,7 +91,7 @@ function Index() {
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link className={"rounded-lg \x62g-gold px-5 py-3 font-semibold text-gold-foreground"} to="/students">تصفّح جميع المشاريع</Link>
-              <a className="rounded-lg border border-gold px-5 py-3 font-semibold text-primary-foreground transition hover:bg-gold hover:text-gold-foreground" href="/downloads/graduation-projects-guide.pdf" download="دليل-مشاريع-التخرج.pdf">تحميل دليل مشاريع التخرج</a>
+              <GuideDownload url={settings.guide_url} />
             </div>
           </div>
         </section>
@@ -114,11 +119,11 @@ function Index() {
       </main>
       <footer className={"mt-20 \x62g-primary text-primary-foreground"}>
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm">
-          <p className={"mb-6 rounded-xl \x62order \x62order-gold/\x360 \x62g-primary-foreground/\x310 p-5 text-base leading-relaxed"}>تم تصميم وتطوير هذه المنصة بواسطة الطالبة: آية الأمين البوسيفي</p>
-          <p className="font-bold text-lg">كلية التربية - جامعة بني وليد</p>
+          <p className={"mb-6 rounded-xl \x62order \x62order-gold/\x360 \x62g-primary-foreground/\x310 p-5 text-base leading-relaxed"}>تم تصميم وتطوير هذه المنصة بواسطة الطالبة: {settings.author_name}</p>
+          <p className="font-bold text-lg">{settings.college_name} - {settings.university_name}</p>
           <p className="mt-1 opacity-90">منظومة مشاريع التخرج والخريجين © 2026</p>
-          <p className="mt-1 opacity-90">تحت إشراف أ. تجديده الحوسين الهادي</p>
-          <p className="mt-2 opacity-80">بني وليد - ليبيا</p>
+          <p className="mt-1 opacity-90">تحت إشراف {settings.supervisor_name}</p>
+          <p className="mt-2 opacity-80">{settings.location}</p>
           <Link className="mt-3 inline-block text-xs underline opacity-70" to="/admin">دخول المشرف</Link>
         </div>
       </footer>

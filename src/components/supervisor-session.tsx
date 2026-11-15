@@ -17,8 +17,17 @@ export function SupervisorSession({ children }: { children: ReactNode }) {
     let generation = 0;
     const refresh = async () => {
       const current = ++generation;
-      const { data } = await supabase.auth.getUser();
-      if (active && current === generation) setState(previous => ({ ...previous, user: data.user, ready: true }));
+      try {
+        const { data: session } = await supabase.auth.getSession();
+        if (!session.session) {
+          if (active && current === generation) setState(previous => ({ ...previous, user: null, ready: true }));
+          return;
+        }
+        const { data } = await supabase.auth.getUser();
+        if (active && current === generation) setState(previous => ({ ...previous, user: data.user, ready: true }));
+      } catch {
+        if (active && current === generation) setState(previous => ({ ...previous, user: null, ready: true }));
+      }
     };
     const { data: { subscription } } = supabase.auth.onAuthStateChange(event => {
       if (event === 'PASSWORD_RECOVERY') {
