@@ -34,7 +34,13 @@ export const getProjectDocuments = createServerFn({ method: 'GET' }).middleware(
 export const saveProject = createServerFn({ method: 'POST' }).middleware([requireSupabaseAuth])
   .inputValidator((input: unknown) => projectSchema.parse(input)).handler(async ({ context, data }) => {
     await requireSupervisor(context.supabase, context.userId);
-    const { data: saved, error } = await context.supabase.from('managed_projects').upsert({ ...data, deleted: false, updated_at: new Date().toISOString() }).select().single();
+    const payload: Database['public']['Tables']['managed_projects']['Insert'] = {
+      title: data.title, department: data.department, people: data.people,
+      year: data.year, semester: data.semester, summary: data.summary,
+      deleted: false, updated_at: new Date().toISOString(),
+    };
+    if (data.id) payload.id = data.id;
+    const { data: saved, error } = await context.supabase.from('managed_projects').upsert(payload).select().single();
     if (error) throw new Error('تعذر حفظ المشروع.');
     return saved;
   });
@@ -52,7 +58,11 @@ export const deleteProject = createServerFn({ method: 'POST' }).middleware([requ
     if (fileError) throw new Error('تعذر حذف سجلات الملفات.');
     const original = capturedProjects.find(p => p.id === data.id);
     const result = original
-      ? await context.supabase.from('managed_projects').upsert({ ...original, to: undefined, deleted: true, updated_at: new Date().toISOString() })
+      ? await context.supabase.from('managed_projects').upsert({
+          id: original.id, title: original.title, department: original.department,
+          people: original.people, year: original.year, semester: '',
+          summary: original.summary, deleted: true, updated_at: new Date().toISOString(),
+        })
       : await context.supabase.from('managed_projects').update({ deleted: true, updated_at: new Date().toISOString() }).eq('id', data.id);
     if (result.error) throw new Error('تعذر حذف المشروع.');
     return { ok: true };
