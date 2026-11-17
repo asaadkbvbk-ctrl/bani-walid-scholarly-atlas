@@ -23,6 +23,7 @@ import { Route as Projects0e1421806db84e438544009c54565525RouteImport } from './
 import { Route as Projects443ce1f7F2494fec83e13a55a8a8a46bRouteImport } from './routes/projects_.443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
 import { Route as Projects4524aff378434e1282815800d1312702RouteImport } from './routes/projects_.4524aff3-7843-4e12-8281-5800d1312702'
 import { Route as Projects5da1928f3f944db7Ace172e32d2e8638RouteImport } from './routes/projects_.5da1928f-3f94-4db7-ace1-72e32d2e8638'
+import { Route as ApiPublicGuideRouteImport } from './routes/api/public/guide'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -97,6 +98,11 @@ const Projects5da1928f3f944db7Ace172e32d2e8638Route =
     path: '/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638',
     getParentRoute: () => rootRouteImport,
   } as any)
+const ApiPublicGuideRoute = ApiPublicGuideRouteImport.update({
+  id: '/api/public/guide',
+  path: '/api/public/guide',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -112,6 +118,7 @@ export interface FileRoutesByFullPath {
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
   '/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638': typeof Projects5da1928f3f944db7Ace172e32d2e8638Route
+  '/api/public/guide': typeof ApiPublicGuideRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -127,6 +134,7 @@ export interface FileRoutesByTo {
   '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
   '/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638': typeof Projects5da1928f3f944db7Ace172e32d2e8638Route
+  '/api/public/guide': typeof ApiPublicGuideRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -144,6 +152,7 @@ export interface FileRoutesById {
   '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b': typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   '/projects_/4524aff3-7843-4e12-8281-5800d1312702': typeof Projects4524aff378434e1282815800d1312702Route
   '/projects_/5da1928f-3f94-4db7-ace1-72e32d2e8638': typeof Projects5da1928f3f944db7Ace172e32d2e8638Route
+  '/api/public/guide': typeof ApiPublicGuideRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -161,6 +170,7 @@ export interface FileRouteTypes {
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
     | '/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638'
+    | '/api/public/guide'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -176,6 +186,7 @@ export interface FileRouteTypes {
     | '/projects/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects/4524aff3-7843-4e12-8281-5800d1312702'
     | '/projects/5da1928f-3f94-4db7-ace1-72e32d2e8638'
+    | '/api/public/guide'
   id:
     | '__root__'
     | '/'
@@ -192,6 +203,7 @@ export interface FileRouteTypes {
     | '/projects_/443ce1f7-f249-4fec-83e1-3a55a8a8a46b'
     | '/projects_/4524aff3-7843-4e12-8281-5800d1312702'
     | '/projects_/5da1928f-3f94-4db7-ace1-72e32d2e8638'
+    | '/api/public/guide'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -208,6 +220,7 @@ export interface RootRouteChildren {
   Projects443ce1f7F2494fec83e13a55a8a8a46bRoute: typeof Projects443ce1f7F2494fec83e13a55a8a8a46bRoute
   Projects4524aff378434e1282815800d1312702Route: typeof Projects4524aff378434e1282815800d1312702Route
   Projects5da1928f3f944db7Ace172e32d2e8638Route: typeof Projects5da1928f3f944db7Ace172e32d2e8638Route
+  ApiPublicGuideRoute: typeof ApiPublicGuideRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -310,6 +323,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Projects5da1928f3f944db7Ace172e32d2e8638RouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/guide': {
+      id: '/api/public/guide'
+      path: '/api/public/guide'
+      fullPath: '/api/public/guide'
+      preLoaderRoute: typeof ApiPublicGuideRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -342,6 +362,7 @@ const rootRouteChildren: RootRouteChildren = {
     Projects4524aff378434e1282815800d1312702Route,
   Projects5da1928f3f944db7Ace172e32d2e8638Route:
     Projects5da1928f3f944db7Ace172e32d2e8638Route,
+  ApiPublicGuideRoute: ApiPublicGuideRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
