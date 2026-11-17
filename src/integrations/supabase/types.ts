@@ -14,6 +14,33 @@ export type Database = {
   }
   public: {
     Tables: {
+      graduates: {
+        Row: {
+          created_at: string
+          department: string
+          full_name: string
+          graduation_year: string
+          id: string
+          project_title: string
+        }
+        Insert: {
+          created_at?: string
+          department?: string
+          full_name: string
+          graduation_year?: string
+          id?: string
+          project_title?: string
+        }
+        Update: {
+          created_at?: string
+          department?: string
+          full_name?: string
+          graduation_year?: string
+          id?: string
+          project_title?: string
+        }
+        Relationships: []
+      }
       managed_projects: {
         Row: {
           deleted: boolean
@@ -151,6 +178,36 @@ export type Database = {
           },
         ]
       }
+      site_files: {
+        Row: {
+          created_at: string
+          id: string
+          is_guide: boolean
+          mime: string
+          name: string
+          path: string
+          size: number
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          is_guide?: boolean
+          mime?: string
+          name: string
+          path: string
+          size?: number
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          is_guide?: boolean
+          mime?: string
+          name?: string
+          path?: string
+          size?: number
+        }
+        Relationships: []
+      }
       user_roles: {
         Row: {
           id: string
@@ -183,6 +240,21 @@ export type Database = {
           _user_id: string
         }
         Returns: boolean
+      }
+      list_supervisors: {
+        Args: never
+        Returns: {
+          display_name: string
+          email: string
+          is_admin: boolean
+          supervisor_position: string
+          user_id: string
+        }[]
+      }
+      remove_supervisor: { Args: { _user_id: string }; Returns: undefined }
+      set_supervisor_admin: {
+        Args: { _grant: boolean; _user_id: string }
+        Returns: undefined
       }
       set_supervisor_position: {
         Args: { _position: string }
