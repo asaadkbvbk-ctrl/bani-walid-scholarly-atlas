@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { permissionsFor } from './supervisor-access';
-import { parseGraduateRows, validateSiteFile } from './graduates';
+import { permissionsFor } from '@/lib/supervisor-access';
+import { parseGraduateRows, validateSiteFile } from '@/lib/graduates';
 
 describe('permissions', () => {
   it('first supervisor (admin) manages settings and supervisors', () => {
