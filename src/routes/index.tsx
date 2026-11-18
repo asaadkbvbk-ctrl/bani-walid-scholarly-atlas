@@ -1,3 +1,4 @@
+import { PublicDownloads } from '@/components/public-directory';
 import { Link, createFileRoute } from "@tanstack/react-router";
 import heroBackground from "@/assets/hero-background.jpg.asset.json";
 import { useRef, useState } from "react";
@@ -116,6 +117,7 @@ function Index() {
         <ImportedSection />
         <ImportedSection2 />
         <ImportedSection3 />
+      <PublicDownloads />
       </main>
       <footer className={"mt-20 \x62g-primary text-primary-foreground"}>
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm">
