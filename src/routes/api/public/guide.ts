@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { attachment, servePublicFile } from '@/lib/public-file.server';
+import { attachment, servePublicFile } from '@/lib/public-file';
 
 // Public read-only: the PDF marked as platform guide, else the bundled default guide.
 export const Route = createFileRoute('/api/public/guide')({

@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { z } from 'zod';
-import { servePublicFile } from '@/lib/public-file.server';
+import { servePublicFile } from '@/lib/public-file';
 
 // Public read-only: only files a supervisor published in the files list can be downloaded.
 export const Route = createFileRoute('/api/public/files/$fileId')({
