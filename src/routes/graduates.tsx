@@ -1,3 +1,4 @@
+import { GraduatesDirectory } from '@/components/public-directory';
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { filterProjects } from "@/lib/captured-projects";
@@ -88,6 +89,7 @@ function Index() {
           <h2 className="mt-8 font-bold text-2xl text-foreground">{department || "جميع الأقسام"} <span className="text-base font-normal text-muted-foreground">(0 خريج)</span></h2>
           <p className={"mt-6 rounded-xl \x62order \x62g-card p-6 text-muted-foreground"}>لا توجد سجلات مطابقة حالياً.</p>
         </div>
+      <GraduatesDirectory />
       </main>
       <footer className={"mt-20 \x62g-primary text-primary-foreground"}>
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm">

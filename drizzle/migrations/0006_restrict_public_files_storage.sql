@@ -1,0 +1,2 @@
+DROP POLICY IF EXISTS "Anyone downloads public files" ON storage.objects;
+CREATE POLICY "Supervisors read public files" ON storage.objects FOR SELECT TO authenticated USING (bucket_id = 'public-files' AND (public.has_role(auth.uid(), 'supervisor') OR public.has_role(auth.uid(), 'admin')));
