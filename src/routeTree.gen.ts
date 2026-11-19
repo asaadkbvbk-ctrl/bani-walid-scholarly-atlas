@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as Char91indexChar93RouteImport } from './routes/[index]'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthRouteImport } from './routes/auth'
@@ -26,6 +27,11 @@ import { Route as Projects5da1928f3f944db7Ace172e32d2e8638RouteImport } from './
 import { Route as ApiPublicGuideRouteImport } from './routes/api/public/guide'
 import { Route as ApiPublicFilesFileIdRouteImport } from './routes/api/public/files/$fileId'
 
+const Char91indexChar93Route = Char91indexChar93RouteImport.update({
+  id: '/index',
+  path: '/index',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -114,6 +120,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
+  '/index': typeof Char91indexChar93Route
   '/reset-password': typeof ResetPasswordRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
@@ -131,6 +138,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
+  '/index': typeof Char91indexChar93Route
   '/reset-password': typeof ResetPasswordRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
@@ -150,6 +158,7 @@ export interface FileRoutesById {
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/auth': typeof AuthRoute
   '/graduates': typeof GraduatesRoute
+  '/index': typeof Char91indexChar93Route
   '/reset-password': typeof ResetPasswordRoute
   '/search': typeof SearchRoute
   '/stats': typeof StatsRoute
@@ -169,6 +178,7 @@ export interface FileRouteTypes {
     | '/'
     | '/auth'
     | '/graduates'
+    | '/index'
     | '/reset-password'
     | '/search'
     | '/stats'
@@ -186,6 +196,7 @@ export interface FileRouteTypes {
     | '/'
     | '/auth'
     | '/graduates'
+    | '/index'
     | '/reset-password'
     | '/search'
     | '/stats'
@@ -204,6 +215,7 @@ export interface FileRouteTypes {
     | '/_authenticated'
     | '/auth'
     | '/graduates'
+    | '/index'
     | '/reset-password'
     | '/search'
     | '/stats'
@@ -223,6 +235,7 @@ export interface RootRouteChildren {
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AuthRoute: typeof AuthRoute
   GraduatesRoute: typeof GraduatesRoute
+  Char91indexChar93Route: typeof Char91indexChar93Route
   ResetPasswordRoute: typeof ResetPasswordRoute
   SearchRoute: typeof SearchRoute
   StatsRoute: typeof StatsRoute
@@ -238,6 +251,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/index': {
+      id: '/index'
+      path: '/index'
+      fullPath: '/index'
+      preLoaderRoute: typeof Char91indexChar93RouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -369,6 +389,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AuthRoute: AuthRoute,
   GraduatesRoute: GraduatesRoute,
+  Char91indexChar93Route: Char91indexChar93Route,
   ResetPasswordRoute: ResetPasswordRoute,
   SearchRoute: SearchRoute,
   StatsRoute: StatsRoute,
