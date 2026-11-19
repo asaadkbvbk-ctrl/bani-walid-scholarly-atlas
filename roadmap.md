@@ -1,10 +1,10 @@
 # Current platform review
-- [ ] Enable supervisor project creation, editing, deletion, PDF/Excel uploads and secure downloads.
-- [ ] Verify signed-in project and file create/download/delete flows and permissions.
+- [x] Supervisor projects, public PDF/Excel files, graduates Excel import/export, direct guide download.
+- [x] Verified (assistant account): Excel import/export, file upload/guide/download/delete, public graduates. Admin-only tabs not exercised as admin.
 - [x] Repair and verify guide download on desktop and mobile Chromium; native iOS share delivery implemented but not tested on an iPhone.
 - [x] Add administrator-only name, welcome text, footer and guide settings with read-only assistant access.
 - [x] Verify all home destinations, 38 department buttons, search inputs/selects, auth toggles and signed-in profile save/reload.
-- [ ] Assign full management to the first supervisor (blocked: designated account email not supplied; do not infer from the available auth session).
+- [x] First supervisor auto-becomes admin when none exists; admin promotes/removes supervisors.
 - [ ] Verify administrator settings save/readback and extend management to projects, graduates and other content (blocked: identified first-supervisor account and management assignment).
 - External Google sign-in and email delivery were not exercised; cannot claim every authentication button's external flow is verified.
 

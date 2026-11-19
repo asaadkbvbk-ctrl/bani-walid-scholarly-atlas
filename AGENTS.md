@@ -38,3 +38,5 @@ use the editor.
 - Prefetch PDF guides into validated Files before download clicks; use the native share sheet on touch devices to preserve user activation on iOS.
 - Manage project overrides and deletion markers in Cloud while retaining captured originals; public catalogs merge overrides so imported records can be edited without destructive reseeding.
 - Both server-assigned supervisors manage projects and private PDF/Excel documents through role-checked functions and Storage RLS; position choices never grant platform-settings administration.
+- Visitor downloads of supervisor-uploaded files go through /api/public routes that only serve rows listed in site_files; the storage bucket stays closed to anonymous reads so unlisted objects cannot be fetched.
+- The first "first supervisor" signup becomes admin only when no admin exists (advisory-locked trigger); later admin grants go through admin-only RPCs, never through the self-selected position.
