@@ -156,7 +156,7 @@ function Index() {
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm">
           <p className={"mb-6 rounded-xl \x62order \x62order-gold/\x360 \x62g-primary-foreground/\x310 p-5 text-base leading-relaxed"}>تم تصميم وتطوير هذه المنصة بواسطة الطالبة: آية الأمين البوسيفي</p>
           <p className="font-bold text-lg">كلية التربية - جامعة بني وليد</p>
-          <p className="mt-1 opacity-90">منظومة مشاريع التخرج والخريجين © 2026</p>
+          <p className="mt-1 opacity-90">منصة مشاريع التخرج والخريجين © 2026</p>
           <p className="mt-1 opacity-90">تحت إشراف أ. تجديده الحوسين الهادي</p>
           <p className="mt-2 opacity-80">بني وليد - ليبيا</p>
           <Link className="mt-3 inline-block text-xs underline opacity-70" to="/admin">دخول المشرف</Link>

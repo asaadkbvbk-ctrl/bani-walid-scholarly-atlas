@@ -50,6 +50,13 @@
       "when": 1795003582779,
       "tag": "0006_restrict_public_files_storage",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1795173661151,
+      "tag": "0007_migration",
+      "breakpoints": true
     }
   ]
 }

@@ -1,8 +1,8 @@
 export const defaultPlatformSettings = {
-  platform_name: 'منظومة مشاريع التخرج والخريجين',
+  platform_name: 'منصة مشاريع التخرج والخريجين',
   college_name: 'كلية التربية',
   university_name: 'جامعة بني وليد',
-  welcome_text: 'مرحبًا بكم في منظومة بيانات الخريجين ومشاريع التخرج',
+  welcome_text: 'مرحبًا بكم في منصة بيانات الخريجين ومشاريع التخرج',
   introduction: 'منصة تجمع الخبرات، وتحفظ الإنجازات، وتفتح آفاقًا جديدة للتواصل والمعرفة.',
   author_name: 'آية الأمين البوسيفي',
   supervisor_name: 'أ. تجديده الحوسين الهادي',
