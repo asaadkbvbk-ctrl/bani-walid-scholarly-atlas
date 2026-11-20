@@ -1,0 +1,1 @@
+UPDATE public.platform_settings SET platform_name = replace(platform_name,'منظومة','منصة'), welcome_text = replace(welcome_text,'منظومة','منصة'), introduction = replace(introduction,'منظومة','منصة');

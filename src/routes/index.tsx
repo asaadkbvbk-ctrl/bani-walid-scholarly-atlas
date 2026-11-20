@@ -12,9 +12,9 @@ import { GuideDownload } from '@/components/guide-download';
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
-    { title: "منظومة مشاريع التخرج والخريجين | كلية التربية - جامعة بني وليد" },
+    { title: "منصة مشاريع التخرج والخريجين | كلية التربية - جامعة بني وليد" },
     { name: "description", content: "مشاريع التخرج وبيانات الخريجين وأقسام كلية التربية بجامعة بني وليد." },
-    { property: "og:title", content: "منظومة مشاريع التخرج والخريجين | جامعة بني وليد" },
+    { property: "og:title", content: "منصة مشاريع التخرج والخريجين | جامعة بني وليد" },
     { property: "og:description", content: "مشاريع التخرج وبيانات الخريجين وأقسام كلية التربية بجامعة بني وليد." },
     { property: "og:type", content: "website" },
     { property: "og:image", content: "https://bani-walid-scholarly-atlas.lovable.app/og-image.png" },
@@ -58,10 +58,10 @@ function Index() {
       <main className="min-h-screen">
         <section className="relative z-20">
           <div className="absolute inset-0 overflow-hidden">
-            <img className="h-full w-full object-cover" src={heroBackground.url} alt="خلفية منظومة مشاريع التخرج" width="1600" height="900" />
+            <img className="h-full w-full object-cover" src={heroBackground.url} alt="خلفية منصة مشاريع التخرج" width="1600" height="900" />
             <div className="hero-overlay absolute inset-0" />
           </div>
-          <div className="relative mx-auto max-w-6xl px-4 py-24 md:py-32">
+          <div className="relative mx-auto max-w-6xl px-4 py-10 md:py-16">
             <p className="text-sm font-semibold text-gold">{settings.college_name} - {settings.university_name}</p>
             <h1 className={"mt-3 max-w-3xl \x66ont-display text-4xl leading-tight text-primary-foreground md:text-5xl"}>{settings.platform_name}</h1>
             <p className="mt-5 max-w-2xl text-xl font-bold text-primary-foreground">{settings.welcome_text}</p>
@@ -123,7 +123,7 @@ function Index() {
         <div className="mx-auto max-w-6xl px-4 py-10 text-sm">
           <p className={"mb-6 rounded-xl \x62order \x62order-gold/\x360 \x62g-primary-foreground/\x310 p-5 text-base leading-relaxed"}>تم تصميم وتطوير هذه المنصة بواسطة الطالبة: {settings.author_name}</p>
           <p className="font-bold text-lg">{settings.college_name} - {settings.university_name}</p>
-          <p className="mt-1 opacity-90">منظومة مشاريع التخرج والخريجين © 2026</p>
+          <p className="mt-1 opacity-90">منصة مشاريع التخرج والخريجين © 2026</p>
           <p className="mt-1 opacity-90">تحت إشراف {settings.supervisor_name}</p>
           <p className="mt-2 opacity-80">{settings.location}</p>
           <Link className="mt-3 inline-block text-xs underline opacity-70" to="/admin">دخول المشرف</Link>
@@ -137,11 +137,11 @@ function ImportedSection() {
   return (
     <section className="mx-auto grid max-w-6xl gap-6 px-4 pt-16 md:grid-cols-2">
       <div className={"rounded-xl \x62order \x62g-card p-6 \x73hadow-soft"}>
-        <h2 className="font-bold text-2xl text-primary">تعريف المنظومة</h2>
-        <p className="mt-3 text-base leading-loose text-foreground">منظومة إلكترونية تهدف إلى تنظيم وحفظ بيانات خريجي كلية التربية ومشاريع تخرجهم، وإتاحتها بطريقة سهلة وموثوقة. وتوفّر المنظومة قاعدة بيانات موحّدة تساعد على الوصول إلى المعلومات، ومتابعة المشاريع، وإبراز نتاج الطلبة العلمي، بما يدعم التواصل مع الخريجين والاستفادة من خبراتهم ومشاريعهم.</p>
+        <h2 className="font-bold text-2xl text-primary">تعريف المنصة</h2>
+        <p className="mt-3 text-base leading-loose text-foreground">منصة إلكترونية تهدف إلى تنظيم وحفظ بيانات خريجي كلية التربية ومشاريع تخرجهم، وإتاحتها بطريقة سهلة وموثوقة. وتوفّر المنصة قاعدة بيانات موحّدة تساعد على الوصول إلى المعلومات، ومتابعة المشاريع، وإبراز نتاج الطلبة العلمي، بما يدعم التواصل مع الخريجين والاستفادة من خبراتهم ومشاريعهم.</p>
       </div>
       <div className={"rounded-xl \x62order \x62g-card p-6 \x73hadow-soft"}>
-        <h2 className="font-bold text-2xl text-primary">أهداف المنظومة</h2>
+        <h2 className="font-bold text-2xl text-primary">أهداف المنصة</h2>
         <ul className={"mt-3 \x73pace-y-2 text-base leading-relaxed text-foreground"}>
           <li className="flex gap-2"><span className={"mt-2 h-2 w-2 shrink-0 rounded-full \x62g-gold"} />إنشاء قاعدة بيانات محدثة ومنظمة للخريجين.</li>
           <li className="flex gap-2"><span className={"mt-2 h-2 w-2 shrink-0 rounded-full \x62g-gold"} />حفظ مشاريع التخرج وتصنيفها حسب التخصص والفصل الدراسي.</li>
